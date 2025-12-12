@@ -1,16 +1,16 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ChevronLeft, ChevronRight, Quote, Star, BadgeCheck } from 'lucide-react'
 import { GlassCard } from '@/components/shared/glass-card'
 
 const testimonials = [
   {
-    name: 'Dr. Marcus Chen',
+    name: 'Marcus Chen',
     role: 'CEO & Founder',
     company: 'EdutechLabs Global',
-    location: 'Singapore',
+    location: 'London, UK',
     content:
       'The consulting expertise from LIMITLESS AI was nothing short of exceptional. They didn\'t just implement solutions—they transformed our entire approach to educational technology. Their strategic insights helped us identify automation opportunities we never knew existed. Within three months, we scaled our operations across 12 countries. An absolute game-changer for global EdTech.',
     rating: 5,
@@ -37,14 +37,26 @@ const testimonials = [
 
 export function Testimonials() {
   const [currentIndex, setCurrentIndex] = useState(0)
+  const [isPaused, setIsPaused] = useState(false)
 
-  const next = () => {
+  const next = useCallback(() => {
     setCurrentIndex((prev) => (prev + 1) % testimonials.length)
-  }
+  }, [])
 
   const prev = () => {
     setCurrentIndex((prev) => (prev - 1 + testimonials.length) % testimonials.length)
   }
+
+  // Auto-scroll every 6 seconds
+  useEffect(() => {
+    if (isPaused) return
+
+    const interval = setInterval(() => {
+      next()
+    }, 6000)
+
+    return () => clearInterval(interval)
+  }, [isPaused, next])
 
   return (
     <section className="section relative overflow-hidden">
@@ -91,7 +103,11 @@ export function Testimonials() {
         </motion.div>
 
         {/* Testimonial Carousel */}
-        <div className="max-w-4xl mx-auto">
+        <div
+          className="max-w-4xl mx-auto"
+          onMouseEnter={() => setIsPaused(true)}
+          onMouseLeave={() => setIsPaused(false)}
+        >
           <div className="relative">
             <AnimatePresence mode="wait">
               <motion.div
@@ -185,18 +201,27 @@ export function Testimonials() {
                 <ChevronLeft className="w-5 h-5" />
               </button>
 
-              {/* Dots */}
-              <div className="flex items-center space-x-2">
+              {/* Dots with Progress */}
+              <div className="flex items-center space-x-3">
                 {testimonials.map((_, index) => (
                   <button
                     key={index}
                     onClick={() => setCurrentIndex(index)}
-                    className={`w-2 h-2 rounded-full transition-all ${
-                      index === currentIndex
-                        ? 'w-8 bg-gradient-primary'
-                        : 'bg-white/20 hover:bg-white/40'
+                    className={`relative h-2 rounded-full transition-all overflow-hidden ${
+                      index === currentIndex ? 'w-10 bg-white/10' : 'w-2 bg-white/20 hover:bg-white/40'
                     }`}
-                  />
+                  >
+                    {index === currentIndex && (
+                      <motion.div
+                        key={currentIndex}
+                        className="absolute inset-0 rounded-full"
+                        style={{ background: 'linear-gradient(135deg, #8b5cf6, #06b6d4)' }}
+                        initial={{ width: '0%' }}
+                        animate={{ width: isPaused ? undefined : '100%' }}
+                        transition={{ duration: 6, ease: 'linear' }}
+                      />
+                    )}
+                  </button>
                 ))}
               </div>
 
