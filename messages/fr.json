@@ -1,0 +1,429 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "caseStudies": "Études de Cas",
+    "contact": "Contact",
+    "getStarted": "Commencer"
+  },
+  "hero": {
+    "badge": "Automatisation d'Entreprise par IA",
+    "headline1": "Automatisez. Intégrez.",
+    "headline2": "Élevez.",
+    "subheadline": "Solutions IA Intelligentes qui Propulsent l'Avenir des Entreprises",
+    "description": "Transformez vos opérations avec une automatisation intelligente. Notre IA gère les leads, appels, réservations et workflows 24/7 — pour ne jamais manquer une opportunité.",
+    "descriptionHighlight": "Évoluez plus vite. Travaillez plus intelligemment. Gagnez plus grand.",
+    "exploreServices": "Explorer les Services",
+    "bookCall": "Réserver un Appel",
+    "stats": {
+      "alwaysOn": "Toujours Actif",
+      "timeSaved": "Temps Économisé",
+      "fasterResponse": "Réponse Rapide",
+      "leadCapture": "Capture de Leads"
+    },
+    "scroll": "Défiler"
+  },
+  "services": {
+    "badge": "Nos Services",
+    "title": "Solutions Intelligentes pour les",
+    "titleHighlight": "Entreprises Modernes",
+    "subtitle": "Nous construisons les outils qui aident votre entreprise à gagner du temps, réduire les coûts et évoluer en toute confiance.",
+    "learnMore": "En Savoir Plus",
+    "viewAll": "Voir Tous les Services",
+    "systemAutomation": {
+      "title": "Automatisation des Systèmes",
+      "tagline": "Votre entreprise en pilote automatique",
+      "description": "Transformez le fonctionnement de votre entreprise avec une automatisation intelligente. Nous créons des workflows IA fluides qui éliminent les tâches manuelles.",
+      "features": ["Synchronisation CRM", "Suivis Automatisés", "Intégration de Processus"]
+    },
+    "chatbot": {
+      "title": "Chatbots Intelligents",
+      "tagline": "Conversations 24/7 qui convertissent",
+      "description": "Des chatbots IA qui travaillent 24h/24. Répondent instantanément aux questions, qualifient les leads et prennent des rendez-vous.",
+      "features": ["Qualification de Leads", "Prise de Rendez-vous", "Support 24/7"]
+    },
+    "website": {
+      "title": "Conception Web",
+      "tagline": "Présence digitale qui domine",
+      "description": "Sites web modernes et convertissants conçus pour la performance. Sites propres, rapides et responsives qui transforment les visiteurs en clients.",
+      "features": ["Responsive Mobile", "Optimisé SEO", "Haute Conversion"]
+    },
+    "receptionist": {
+      "title": "Réceptionniste IA",
+      "tagline": "Ne manquez plus jamais une opportunité",
+      "description": "Notre Réceptionniste IA gère les demandes, prend les rendez-vous, répond instantanément et gère les suivis 24/7.",
+      "features": ["Gestion des Appels", "Réponses Instantanées", "Routage Intelligent"]
+    }
+  },
+  "process": {
+    "badge": "Notre Processus",
+    "title": "Comment Nous",
+    "titleHighlight": "Transformons",
+    "titleEnd": "Votre Entreprise",
+    "subtitle": "Une méthodologie éprouvée pour livrer des solutions d'automatisation IA exceptionnelles qui génèrent de vrais résultats.",
+    "steps": {
+      "discovery": {
+        "title": "Découverte",
+        "description": "Nous commençons par comprendre vos défis commerciaux, objectifs et workflows actuels pour identifier les meilleures opportunités d'automatisation."
+      },
+      "strategy": {
+        "title": "Stratégie",
+        "description": "Nous concevons une solution IA sur mesure adaptée à vos besoins spécifiques, définissant les outils, intégrations et workflows nécessaires."
+      },
+      "implementation": {
+        "title": "Implémentation",
+        "description": "Notre équipe construit et déploie vos systèmes d'automatisation avec des tests minutieux pour assurer un fonctionnement parfait."
+      },
+      "optimization": {
+        "title": "Optimisation",
+        "description": "Nous surveillons, affinons et optimisons continuellement vos systèmes pour offrir les meilleurs résultats et ROI au fil du temps."
+      }
+    }
+  },
+  "metrics": {
+    "badge": "En Chiffres",
+    "title": "Des Résultats Réels pour de",
+    "titleHighlight": "Vraies Entreprises",
+    "subtitle": "L'impact de LIMITLESS AI est quantifié par nos métriques de succès, démontrant les bénéfices tangibles de nos solutions IA.",
+    "items": {
+      "alwaysOn": {
+        "label": "Automatisation Permanente",
+        "description": "Votre IA travaille 24h/24"
+      },
+      "timeSaved": {
+        "label": "Temps Économisé",
+        "description": "Sur les tâches manuelles répétitives"
+      },
+      "fasterResponse": {
+        "label": "Réponse Plus Rapide",
+        "description": "Résolution des demandes clients"
+      },
+      "leadCapture": {
+        "label": "Capture de Leads",
+        "description": "Ne manquez jamais une opportunité"
+      }
+    }
+  },
+  "caseStudies": {
+    "badge": "Histoires de Succès",
+    "title": "Projets",
+    "titleHighlight": "Clients",
+    "subtitle": "Découvrez comment LIMITLESS AI a transformé des entreprises avec nos solutions innovantes.",
+    "viewCaseStudy": "Voir l'Étude de Cas",
+    "viewAll": "Voir Tous les Projets",
+    "items": {
+      "chatbot": {
+        "category": "Développement Chatbot",
+        "title": "Révolutionner les Interactions",
+        "description": "Découvrez comment nos services de développement de chatbots ont révolutionné les interactions clients, offrant des expériences fluides et une communication efficace.",
+        "result": "70% de réduction du temps de réponse"
+      },
+      "website": {
+        "category": "Création de Site Web",
+        "title": "Présence Digitale Réinventée",
+        "description": "Découvrez notre processus de création web responsive axé sur des sites engageants, optimisés SEO et conçus pour le succès.",
+        "result": "3x plus de conversions"
+      },
+      "automation": {
+        "category": "Services d'Automatisation",
+        "title": "Efficacité Redéfinie",
+        "description": "Expérimentez la puissance de l'automatisation avec nos services d'intégration système qui optimisent les processus, réduisent les erreurs et augmentent la productivité.",
+        "result": "50% de temps économisé quotidiennement"
+      },
+      "receptionist": {
+        "category": "Réceptionniste IA",
+        "title": "Sur Mesure Pour Vous",
+        "description": "La Réceptionniste IA gère les demandes, prend les rendez-vous, répond instantanément et gère les suivis 24/7 tout en s'intégrant à vos systèmes existants.",
+        "result": "100% de taux de capture de leads"
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Témoignages Clients",
+    "title": "La Confiance des",
+    "titleHighlight": "Entreprises du Monde Entier",
+    "subtitle": "De Londres à l'Éthiopie en passant par l'Espagne — des entreprises du monde entier font confiance à LIMITLESS AI pour transformer leurs opérations.",
+    "averageRating": "5.0 Note Moyenne",
+    "verifiedReviews": "100% Avis Vérifiés",
+    "verifiedClient": "Client Vérifié",
+    "items": {
+      "edutechLabs": {
+        "company": "EdutechLabs Global",
+        "location": "Londres, Royaume-Uni",
+        "content": "L'expertise en conseil de LIMITLESS AI était tout simplement exceptionnelle. Ils n'ont pas seulement implémenté des solutions—ils ont transformé toute notre approche de la technologie éducative. Leurs insights stratégiques nous ont aidés à identifier des opportunités d'automatisation que nous ignorions. En trois mois, nous avons étendu nos opérations à 12 pays. Un véritable changement de jeu pour l'EdTech mondial."
+      },
+      "architectBureau": {
+        "company": "Architect Bureau",
+        "location": "Addis-Abeba, Éthiopie",
+        "content": "LIMITLESS AI a compris les défis uniques de diriger un cabinet d'architecture en Afrique de l'Est. Leurs systèmes intelligents gèrent maintenant les communications clients, la planification de projets et les suivis de manière fluide. Nous avons constaté une augmentation de 200% des demandes de projets et ne manquons jamais une opportunité. Ils ont fourni un service de classe mondiale rivalisant avec tout ce que j'ai vu internationalement."
+      },
+      "pristine": {
+        "company": "Pristine",
+        "location": "Marbella, Espagne",
+        "content": "Notre charge de travail administrative noyait notre équipe jusqu'à l'intervention de LIMITLESS AI. Ils ont tout automatisé—planification, gestion des employés, communications clients, facturation—tout. Notre personnel se concentre maintenant sur la fourniture d'un service exceptionnel plutôt que sur la paperasse. C'est comme avoir un département opérationnel entier travaillant 24/7. Absolument révolutionnaire pour notre entreprise."
+      }
+    }
+  },
+  "cta": {
+    "badge": "Prêt à Transformer ?",
+    "title": "Prêt à Débloquer une",
+    "titleHighlight": "Croissance Sans Limites ?",
+    "description": "Transformez votre entreprise avec des solutions IA de pointe. Contactez-nous aujourd'hui et commençons un voyage vers l'innovation et la croissance.",
+    "bookCall": "Réservez Votre Appel Stratégique Gratuit",
+    "exploreServices": "Explorer les Services",
+    "trustedBy": "La confiance des entreprises à travers le Royaume-Uni"
+  },
+  "footer": {
+    "tagline": "Solutions IA Intelligentes qui Propulsent l'Avenir des Entreprises. Transformez vos opérations avec une automatisation intelligente qui fonctionne 24/7.",
+    "navigation": "Navigation",
+    "legalTitle": "Légal",
+    "nav": {
+      "home": "Accueil",
+      "services": "Services",
+      "caseStudies": "Études de Cas",
+      "contact": "Contact"
+    },
+    "legal": {
+      "privacy": "Politique de Confidentialité",
+      "terms": "Conditions Générales",
+      "accessibility": "Accessibilité",
+      "refund": "Politique de Remboursement"
+    },
+    "copyright": "Tous droits réservés."
+  },
+  "contact": {
+    "badge": "Commencer",
+    "title": "Commençons Votre",
+    "titleHighlight": "Parcours d'Automatisation",
+    "subtitle": "Prêt à transformer votre entreprise avec des solutions IA de pointe ? Contactez-nous aujourd'hui et commençons un voyage vers l'innovation.",
+    "sendMessage": "Envoyez-nous un Message",
+    "contactInfo": "Coordonnées",
+    "email": "Email",
+    "address": "Adresse",
+    "responseTime": "Délai de Réponse",
+    "responseTimeValue": "Sous 24 heures",
+    "whyWorkWithUs": "Pourquoi Travailler Avec Nous ?",
+    "benefits": {
+      "consultation": {
+        "title": "Consultation Gratuite",
+        "description": "Réservez un appel sans engagement pour discuter de vos besoins d'automatisation"
+      },
+      "turnaround": {
+        "title": "Délai Rapide",
+        "description": "Obtenez votre solution personnalisée opérationnelle en semaines, pas en mois"
+      },
+      "support": {
+        "title": "Support Continu",
+        "description": "Optimisation continue et support après le lancement"
+      }
+    },
+    "trustedBy": "La Confiance des Entreprises Britanniques",
+    "trustedBySubtitle": "Rejoignez les entreprises qui économisent déjà du temps avec l'IA"
+  },
+  "contactForm": {
+    "success": {
+      "title": "Message Envoyé !",
+      "message": "Merci de nous avoir contactés. Nous vous répondrons sous 24 heures."
+    },
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "message": "Message",
+    "required": "*",
+    "placeholders": {
+      "firstName": "Jean",
+      "lastName": "Dupont",
+      "email": "jean@entreprise.fr",
+      "phone": "+33 6 12 34 56 78",
+      "message": "Parlez-nous de votre entreprise et de ce que vous souhaitez automatiser..."
+    },
+    "sending": "Envoi en cours...",
+    "send": "Envoyer le Message"
+  },
+  "chat": {
+    "title": "LIMITLESS AI",
+    "subtitle": "Nous répondons généralement instantanément",
+    "welcomeMessage": "Bonjour ! Bienvenue chez LIMITLESS AI. Comment puis-je vous aider à automatiser votre entreprise aujourd'hui ?",
+    "followUp": "N'hésitez pas à poser des questions sur nos services ou à planifier une consultation gratuite !",
+    "placeholder": "Tapez votre message...",
+    "poweredBy": "Propulsé par LIMITLESS AI"
+  },
+  "servicesPage": {
+    "badge": "Nos Services",
+    "title": "Solutions Intelligentes pour",
+    "titleHighlight": "les Entreprises Modernes",
+    "subtitle": "Chez Limitless AI, nous aidons les entreprises à croître plus rapidement en transformant le travail manuel en systèmes entièrement automatisés et intelligents. Nos services sont conçus pour optimiser les opérations, stimuler l'engagement client et créer des workflows plus intelligents et efficaces dans toute votre entreprise.",
+    "keyFeatures": "Caractéristiques Clés",
+    "getStarted": "Commencer",
+    "systemAutomation": {
+      "title": "Automatisation des Systèmes",
+      "tagline": "Votre entreprise en pilote automatique",
+      "description": "Transformez le fonctionnement de votre entreprise avec une automatisation intelligente. Nous cartographions vos processus, intégrons vos outils et créons des workflows IA fluides qui éliminent les tâches manuelles, réduisent les erreurs et économisent des heures chaque jour.",
+      "longDescription": "De la synchronisation CRM aux suivis automatisés et opérations internes, nous construisons des systèmes qui font fonctionner votre entreprise plus facilement, plus rapidement et plus efficacement en pilote automatique.",
+      "features": [
+        "Cartographie et optimisation des workflows",
+        "Intégration CRM et outils",
+        "Séquences de suivi automatisées",
+        "Réduction des erreurs et contrôle qualité",
+        "Synchronisation des données en temps réel",
+        "Actions personnalisées basées sur des déclencheurs"
+      ]
+    },
+    "chatbot": {
+      "title": "Chatbot Intelligent",
+      "tagline": "Conversations 24/7 qui convertissent",
+      "description": "Projetez votre expérience client dans le futur avec des chatbots IA qui fonctionnent 24/7. Nos chatbots intelligents répondent instantanément aux questions, qualifient les leads, prennent des rendez-vous et fournissent un support personnalisé sans intervention humaine.",
+      "longDescription": "Conçus pour s'intégrer parfaitement à votre site web et CRM, ils vous aident à convertir plus de visiteurs, réduire les temps de réponse et automatiser le service client à grande échelle.",
+      "features": [
+        "Réponses clients instantanées 24/7",
+        "Qualification intelligente des leads",
+        "Prise de rendez-vous automatisée",
+        "Flux de conversation personnalisés",
+        "Intégration CRM et calendrier",
+        "Support multilingue"
+      ]
+    },
+    "website": {
+      "title": "Conception Web",
+      "tagline": "Présence digitale qui domine",
+      "description": "Créez une présence en ligne puissante avec des sites web modernes et convertissants conçus pour la performance et la croissance. Nous construisons des sites propres, rapides et responsives qui reflètent votre marque et transforment les visiteurs en clients.",
+      "longDescription": "Des mises en page intelligentes aux expériences utilisateur fluides, chaque page est conçue avec un objectif — aider votre entreprise à se démarquer, bâtir la confiance et générer des résultats.",
+      "features": [
+        "Design moderne et responsive",
+        "Optimisation SEO intégrée",
+        "Performance haute vitesse",
+        "Mises en page axées sur la conversion",
+        "Esthétique alignée sur la marque",
+        "Intégration analytics"
+      ]
+    },
+    "receptionist": {
+      "title": "Réceptionniste IA",
+      "tagline": "Ne manquez plus jamais une opportunité",
+      "description": "Ne manquez plus jamais un client, un appel ou une opportunité. Notre Réceptionniste IA gère les demandes, prend les rendez-vous, répond instantanément aux messages et gère les suivis 24/7.",
+      "longDescription": "Elle accueille vos clients, répond aux questions courantes et dirige les personnes au bon endroit, tout en s'intégrant parfaitement à vos systèmes existants. Des réponses plus rapides, un meilleur service et plus de conversions — le tout en pilote automatique.",
+      "features": [
+        "Gestion des appels et messages 24/7",
+        "Routage intelligent des demandes",
+        "Planification automatisée des rendez-vous",
+        "Gestion des suivis",
+        "Synchronisation CRM et calendrier",
+        "Voix et personnalité personnalisées"
+      ]
+    }
+  },
+  "caseStudiesPage": {
+    "badge": "Histoires de Succès",
+    "title": "Projets",
+    "titleHighlight": "Clients",
+    "subtitle": "Découvrez comment LIMITLESS AI a transformé des entreprises avec nos solutions innovantes. Chaque étude de cas démontre notre expertise en intégration IA et automatisation des systèmes.",
+    "theChallenge": "Le Défi",
+    "ourSolution": "Notre Solution",
+    "resultsAchieved": "Résultats Obtenus",
+    "items": {
+      "chatbot": {
+        "category": "Développement Chatbot",
+        "title": "Révolutionner les Interactions Clients",
+        "client": "Plateforme E-commerce",
+        "challenge": "Une entreprise e-commerce en croissance avait du mal à gérer les demandes clients croissantes, entraînant des temps de réponse lents et des opportunités de vente perdues.",
+        "solution": "Nous avons implémenté un chatbot IA qui gère les demandes produits, le suivi des commandes, les retours et les FAQ 24/7. Le chatbot s'intègre à leur système d'inventaire pour la disponibilité des produits en temps réel.",
+        "results": {
+          "responseTime": {
+            "label": "Temps de Réponse",
+            "value": "70%",
+            "description": "de réduction du temps de réponse moyen"
+          },
+          "satisfaction": {
+            "label": "Satisfaction Client",
+            "value": "45%",
+            "description": "d'augmentation des scores CSAT"
+          },
+          "conversion": {
+            "label": "Conversion Ventes",
+            "value": "25%",
+            "description": "d'augmentation de la conversion chat-vente"
+          }
+        }
+      },
+      "website": {
+        "category": "Création de Site Web",
+        "title": "Présence Digitale Réinventée",
+        "client": "Cabinet de Services Professionnels",
+        "challenge": "Un cabinet de conseil établi avait un site web obsolète qui ne générait pas de leads et ne reflétait pas leur expertise sur le marché.",
+        "solution": "Nous avons conçu et construit un site web moderne, optimisé SEO avec un focus sur la génération de leads. Les fonctionnalités incluent des showcases d'études de cas, des pages de services et un système de réservation intégré.",
+        "results": {
+          "traffic": {
+            "label": "Trafic Organique",
+            "value": "3x",
+            "description": "d'augmentation des visiteurs mensuels"
+          },
+          "leads": {
+            "label": "Génération de Leads",
+            "value": "200%",
+            "description": "plus de demandes par mois"
+          },
+          "pageLoad": {
+            "label": "Chargement Page",
+            "value": "<2s",
+            "description": "temps de chargement moyen"
+          }
+        }
+      },
+      "automation": {
+        "category": "Services d'Automatisation",
+        "title": "Efficacité Redéfinie",
+        "client": "Agence Marketing",
+        "challenge": "Une agence marketing passait trop de temps sur la saisie manuelle de données, les rapports clients et les tâches de gestion de projet, limitant leur capacité de croissance.",
+        "solution": "Nous avons automatisé leur workflow complet : de l'onboarding client aux rapports. Les systèmes mettent maintenant à jour automatiquement les enregistrements CRM, génèrent des rapports et déclenchent des notifications aux étapes clés.",
+        "results": {
+          "timeSaved": {
+            "label": "Temps Économisé",
+            "value": "50%",
+            "description": "de réduction des tâches admin"
+          },
+          "errorRate": {
+            "label": "Taux d'Erreur",
+            "value": "90%",
+            "description": "moins d'erreurs de saisie"
+          },
+          "capacity": {
+            "label": "Capacité Clients",
+            "value": "40%",
+            "description": "plus de clients gérés"
+          }
+        }
+      },
+      "receptionist": {
+        "category": "Réceptionniste IA",
+        "title": "Ne Manquez Plus Jamais un Lead",
+        "client": "Clinique de Santé",
+        "challenge": "Une clinique médicale occupée manquait des appels aux heures de pointe et en dehors des heures d'ouverture, entraînant des réservations perdues et des patients frustrés.",
+        "solution": "Nous avons déployé une Réceptionniste IA qui gère les appels 24/7, prend les rendez-vous directement dans leur système, répond aux questions courantes et escalade les urgences de manière appropriée.",
+        "results": {
+          "callHandling": {
+            "label": "Gestion des Appels",
+            "value": "100%",
+            "description": "des appels répondus"
+          },
+          "bookings": {
+            "label": "Réservations",
+            "value": "35%",
+            "description": "d'augmentation des rendez-vous"
+          },
+          "afterHours": {
+            "label": "Hors Heures",
+            "value": "24/7",
+            "description": "disponibilité atteinte"
+          }
+        }
+      }
+    }
+  },
+  "common": {
+    "learnMore": "En Savoir Plus",
+    "getStarted": "Commencer",
+    "bookCall": "Réserver un Appel",
+    "viewAll": "Voir Tout"
+  }
+}

@@ -1,79 +1,81 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { MessageSquare, Globe, Workflow, Phone, ArrowRight, TrendingUp, Clock, Users } from 'lucide-react'
-import Link from 'next/link'
+import { MessageSquare, Globe, Workflow, Phone, ArrowRight, TrendingUp } from 'lucide-react'
 import { GlassCard } from '@/components/shared/glass-card'
 import { CTA } from '@/components/sections/cta'
+import { useTranslations } from 'next-intl'
 
-const caseStudies = [
-  {
-    icon: MessageSquare,
-    category: 'Chatbot Development',
-    title: 'Revolutionizing Customer Interactions',
-    client: 'E-commerce Platform',
-    challenge:
-      'A growing e-commerce business was struggling to handle increasing customer enquiries, leading to slow response times and lost sales opportunities.',
-    solution:
-      'We implemented an AI-powered chatbot that handles product inquiries, order tracking, returns, and FAQs 24/7. The chatbot integrates with their inventory system for real-time product availability.',
-    results: [
-      { label: 'Response Time', value: '70%', description: 'reduction in average response time' },
-      { label: 'Customer Satisfaction', value: '45%', description: 'increase in CSAT scores' },
-      { label: 'Sales Conversion', value: '25%', description: 'increase in chat-to-sale conversion' },
-    ],
-    gradient: 'from-accent-purple to-accent-cyan',
-  },
-  {
-    icon: Globe,
-    category: 'Website Creation',
-    title: 'Digital Presence Reinvented',
-    client: 'Professional Services Firm',
-    challenge:
-      'An established consultancy firm had an outdated website that wasn\'t generating leads or reflecting their expertise in the market.',
-    solution:
-      'We designed and built a modern, SEO-optimized website with a focus on lead generation. Features include case study showcases, service pages, and integrated booking system.',
-    results: [
-      { label: 'Organic Traffic', value: '3x', description: 'increase in monthly visitors' },
-      { label: 'Lead Generation', value: '200%', description: 'more enquiries per month' },
-      { label: 'Page Load', value: '<2s', description: 'average page load time' },
-    ],
-    gradient: 'from-accent-cyan to-accent-blue',
-  },
-  {
-    icon: Workflow,
-    category: 'Automation Services',
-    title: 'Efficiency Redefined',
-    client: 'Marketing Agency',
-    challenge:
-      'A marketing agency was spending too much time on manual data entry, client reporting, and project management tasks, limiting their growth capacity.',
-    solution:
-      'We automated their entire workflow: from client onboarding to reporting. Systems now auto-update CRM records, generate reports, and trigger notifications at key milestones.',
-    results: [
-      { label: 'Time Saved', value: '50%', description: 'reduction in admin tasks' },
-      { label: 'Error Rate', value: '90%', description: 'fewer data entry errors' },
-      { label: 'Client Capacity', value: '40%', description: 'more clients handled' },
-    ],
-    gradient: 'from-accent-blue to-accent-purple',
-  },
-  {
-    icon: Phone,
-    category: 'AI Receptionist',
-    title: 'Never Miss Another Lead',
-    client: 'Healthcare Clinic',
-    challenge:
-      'A busy medical clinic was missing calls during peak hours and after-hours, resulting in lost appointment bookings and frustrated patients.',
-    solution:
-      'We deployed an AI Receptionist that handles calls 24/7, books appointments directly into their system, answers common questions, and escalates urgent matters appropriately.',
-    results: [
-      { label: 'Call Handling', value: '100%', description: 'of calls answered' },
-      { label: 'Bookings', value: '35%', description: 'increase in appointments' },
-      { label: 'After-Hours', value: '24/7', description: 'availability achieved' },
-    ],
-    gradient: 'from-accent-purple to-accent-blue',
-  },
+const caseStudyIcons = [MessageSquare, Globe, Workflow, Phone]
+const caseStudyGradients = [
+  'from-accent-purple to-accent-cyan',
+  'from-accent-cyan to-accent-blue',
+  'from-accent-blue to-accent-purple',
+  'from-accent-purple to-accent-blue',
 ]
 
 export default function CaseStudiesPage() {
+  const t = useTranslations('caseStudiesPage')
+
+  const caseStudies = [
+    {
+      icon: caseStudyIcons[0],
+      category: t('items.chatbot.category'),
+      title: t('items.chatbot.title'),
+      client: t('items.chatbot.client'),
+      challenge: t('items.chatbot.challenge'),
+      solution: t('items.chatbot.solution'),
+      results: [
+        { label: t('items.chatbot.results.responseTime.label'), value: t('items.chatbot.results.responseTime.value'), description: t('items.chatbot.results.responseTime.description') },
+        { label: t('items.chatbot.results.satisfaction.label'), value: t('items.chatbot.results.satisfaction.value'), description: t('items.chatbot.results.satisfaction.description') },
+        { label: t('items.chatbot.results.conversion.label'), value: t('items.chatbot.results.conversion.value'), description: t('items.chatbot.results.conversion.description') },
+      ],
+      gradient: caseStudyGradients[0],
+    },
+    {
+      icon: caseStudyIcons[1],
+      category: t('items.website.category'),
+      title: t('items.website.title'),
+      client: t('items.website.client'),
+      challenge: t('items.website.challenge'),
+      solution: t('items.website.solution'),
+      results: [
+        { label: t('items.website.results.traffic.label'), value: t('items.website.results.traffic.value'), description: t('items.website.results.traffic.description') },
+        { label: t('items.website.results.leads.label'), value: t('items.website.results.leads.value'), description: t('items.website.results.leads.description') },
+        { label: t('items.website.results.pageLoad.label'), value: t('items.website.results.pageLoad.value'), description: t('items.website.results.pageLoad.description') },
+      ],
+      gradient: caseStudyGradients[1],
+    },
+    {
+      icon: caseStudyIcons[2],
+      category: t('items.automation.category'),
+      title: t('items.automation.title'),
+      client: t('items.automation.client'),
+      challenge: t('items.automation.challenge'),
+      solution: t('items.automation.solution'),
+      results: [
+        { label: t('items.automation.results.timeSaved.label'), value: t('items.automation.results.timeSaved.value'), description: t('items.automation.results.timeSaved.description') },
+        { label: t('items.automation.results.errorRate.label'), value: t('items.automation.results.errorRate.value'), description: t('items.automation.results.errorRate.description') },
+        { label: t('items.automation.results.capacity.label'), value: t('items.automation.results.capacity.value'), description: t('items.automation.results.capacity.description') },
+      ],
+      gradient: caseStudyGradients[2],
+    },
+    {
+      icon: caseStudyIcons[3],
+      category: t('items.receptionist.category'),
+      title: t('items.receptionist.title'),
+      client: t('items.receptionist.client'),
+      challenge: t('items.receptionist.challenge'),
+      solution: t('items.receptionist.solution'),
+      results: [
+        { label: t('items.receptionist.results.callHandling.label'), value: t('items.receptionist.results.callHandling.value'), description: t('items.receptionist.results.callHandling.description') },
+        { label: t('items.receptionist.results.bookings.label'), value: t('items.receptionist.results.bookings.value'), description: t('items.receptionist.results.bookings.description') },
+        { label: t('items.receptionist.results.afterHours.label'), value: t('items.receptionist.results.afterHours.value'), description: t('items.receptionist.results.afterHours.description') },
+      ],
+      gradient: caseStudyGradients[3],
+    },
+  ]
+
   return (
     <>
       {/* Hero Section */}
@@ -89,13 +91,13 @@ export default function CaseStudiesPage() {
             className="text-center"
           >
             <span className="inline-block px-4 py-1.5 rounded-full bg-accent-cyan/10 border border-accent-cyan/20 text-accent-cyan text-sm font-medium mb-6">
-              Success Stories
+              {t('badge')}
             </span>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-heading font-bold text-white mb-6">
-              Client <span className="gradient-text">Projects</span>
+              {t('title')} <span className="gradient-text">{t('titleHighlight')}</span>
             </h1>
             <p className="text-lg text-muted max-w-3xl mx-auto">
-              Discover how LIMITLESS AI has transformed businesses with our innovative solutions. Each case study showcases our expertise in AI integration and system automation.
+              {t('subtitle')}
             </p>
           </motion.div>
         </div>
@@ -152,14 +154,14 @@ export default function CaseStudiesPage() {
                         <div>
                           <h3 className="text-lg font-semibold text-white mb-3 flex items-center">
                             <span className="w-2 h-2 rounded-full bg-red-500 mr-2" />
-                            The Challenge
+                            {t('theChallenge')}
                           </h3>
                           <p className="text-muted leading-relaxed">{study.challenge}</p>
                         </div>
                         <div>
                           <h3 className="text-lg font-semibold text-white mb-3 flex items-center">
                             <span className="w-2 h-2 rounded-full bg-accent-cyan mr-2" />
-                            Our Solution
+                            {t('ourSolution')}
                           </h3>
                           <p className="text-muted leading-relaxed">{study.solution}</p>
                         </div>
@@ -169,7 +171,7 @@ export default function CaseStudiesPage() {
                       <div className="border-t border-white/10 pt-8">
                         <h3 className="text-lg font-semibold text-white mb-6 flex items-center">
                           <TrendingUp className="w-5 h-5 mr-2 text-accent-purple" />
-                          Results Achieved
+                          {t('resultsAchieved')}
                         </h3>
                         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                           {study.results.map((result, i) => (

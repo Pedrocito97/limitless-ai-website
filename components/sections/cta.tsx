@@ -1,10 +1,13 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import Link from 'next/link'
 import { ArrowRight, Sparkles } from 'lucide-react'
+import { useTranslations } from 'next-intl'
+import { Link } from '@/i18n/navigation'
 
 export function CTA() {
+  const t = useTranslations('cta')
+
   return (
     <section className="section relative overflow-hidden">
       {/* Background */}
@@ -50,7 +53,7 @@ export function CTA() {
           >
             <Sparkles className="w-4 h-4 text-accent-purple" />
             <span className="text-sm text-white font-medium">
-              Ready to Transform?
+              {t('badge')}
             </span>
           </motion.div>
 
@@ -62,9 +65,9 @@ export function CTA() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-6"
           >
-            Ready to Unlock
+            {t('title')}
             <br />
-            <span className="gradient-text">Limitless Growth?</span>
+            <span className="gradient-text">{t('titleHighlight')}</span>
           </motion.h2>
 
           {/* Description */}
@@ -75,7 +78,7 @@ export function CTA() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="text-lg text-muted max-w-2xl mx-auto mb-10"
           >
-            Transform your business with cutting-edge AI solutions. Reach out today and let&apos;s start a journey towards innovation and growth.
+            {t('description')}
           </motion.p>
 
           {/* CTAs */}
@@ -87,11 +90,11 @@ export function CTA() {
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <Link href="/contact" className="btn-primary group">
-              Book Your Free Strategy Call
+              {t('bookCall')}
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
             <Link href="/services" className="btn-secondary">
-              Explore Services
+              {t('exploreServices')}
             </Link>
           </motion.div>
 
@@ -103,7 +106,7 @@ export function CTA() {
             transition={{ duration: 0.5, delay: 0.5 }}
             className="mt-12 pt-8 border-t border-white/10"
           >
-            <p className="text-sm text-muted mb-4">Trusted by businesses across the UK</p>
+            <p className="text-sm text-muted mb-4">{t('trustedBy')}</p>
             <div className="flex items-center justify-center space-x-8 opacity-50">
               {[1, 2, 3, 4].map((_, i) => (
                 <div

@@ -4,38 +4,37 @@ import { useState, useEffect, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ChevronLeft, ChevronRight, Quote, Star, BadgeCheck } from 'lucide-react'
 import { GlassCard } from '@/components/shared/glass-card'
-
-const testimonials = [
-  {
-    company: 'EdutechLabs Global',
-    location: 'London, UK',
-    content:
-      'The consulting expertise from LIMITLESS AI was nothing short of exceptional. They didn\'t just implement solutions—they transformed our entire approach to educational technology. Their strategic insights helped us identify automation opportunities we never knew existed. Within three months, we scaled our operations across 12 countries. An absolute game-changer for global EdTech.',
-    rating: 5,
-  },
-  {
-    company: 'Architect Bureau',
-    location: 'Addis Ababa, Ethiopia',
-    content:
-      'LIMITLESS AI understood the unique challenges of running an architecture firm in East Africa. Their intelligent systems now handle client communications, project scheduling, and follow-ups seamlessly. We\'ve seen a 200% increase in project inquiries and never miss an opportunity. They delivered world-class service that rivals anything I\'ve seen internationally.',
-    rating: 5,
-  },
-  {
-    company: 'Pristine',
-    location: 'Marbella, Spain',
-    content:
-      'Our administrative workload was drowning our team until LIMITLESS AI stepped in. They automated everything—scheduling, employee management, client communications, invoicing—the works. Our staff now focuses on delivering exceptional service instead of paperwork. It\'s like having an entire operations department working 24/7. Absolutely revolutionary for our business.',
-    rating: 5,
-  },
-]
+import { useTranslations } from 'next-intl'
 
 export function Testimonials() {
+  const t = useTranslations('testimonials')
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isPaused, setIsPaused] = useState(false)
 
+  const testimonials = [
+    {
+      company: t('items.edutechLabs.company'),
+      location: t('items.edutechLabs.location'),
+      content: t('items.edutechLabs.content'),
+      rating: 5,
+    },
+    {
+      company: t('items.architectBureau.company'),
+      location: t('items.architectBureau.location'),
+      content: t('items.architectBureau.content'),
+      rating: 5,
+    },
+    {
+      company: t('items.pristine.company'),
+      location: t('items.pristine.location'),
+      content: t('items.pristine.content'),
+      rating: 5,
+    },
+  ]
+
   const next = useCallback(() => {
     setCurrentIndex((prev) => (prev + 1) % testimonials.length)
-  }, [])
+  }, [testimonials.length])
 
   const prev = () => {
     setCurrentIndex((prev) => (prev - 1 + testimonials.length) % testimonials.length)
@@ -67,17 +66,17 @@ export function Testimonials() {
           className="text-center mb-16"
         >
           <span className="inline-block px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-sm font-medium mb-4">
-            Client Success Stories
+            {t('badge')}
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4" style={{ fontFamily: 'var(--font-space-grotesk), system-ui, sans-serif' }}>
-            Trusted by <span style={{
+            {t('title')} <span style={{
               background: 'linear-gradient(135deg, #a855f7, #06b6d4)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
-            }}>Businesses Worldwide</span>
+            }}>{t('titleHighlight')}</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg mb-6">
-            From Singapore to Ethiopia to Spain — businesses across the globe trust LIMITLESS AI to transform their operations.
+            {t('subtitle')}
           </p>
           <div className="flex items-center justify-center space-x-8 text-sm">
             <div className="flex items-center space-x-2">
@@ -86,12 +85,12 @@ export function Testimonials() {
                   <Star key={i} className="w-4 h-4 text-yellow-400 fill-yellow-400" />
                 ))}
               </div>
-              <span className="text-gray-400">5.0 Average Rating</span>
+              <span className="text-gray-400">{t('averageRating')}</span>
             </div>
             <div className="hidden sm:block w-px h-4 bg-white/20" />
             <div className="hidden sm:flex items-center space-x-2">
               <BadgeCheck className="w-4 h-4 text-cyan-400" />
-              <span className="text-gray-400">100% Verified Reviews</span>
+              <span className="text-gray-400">{t('verifiedReviews')}</span>
             </div>
           </div>
         </motion.div>
@@ -149,7 +148,7 @@ export function Testimonials() {
                     <span className="ml-2 text-yellow-400/80 text-sm font-medium">5.0</span>
                     <div className="ml-4 flex items-center space-x-1 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20">
                       <BadgeCheck className="w-4 h-4 text-cyan-400" />
-                      <span className="text-cyan-400 text-xs font-medium">Verified Client</span>
+                      <span className="text-cyan-400 text-xs font-medium">{t('verifiedClient')}</span>
                     </div>
                   </div>
 

@@ -3,39 +3,26 @@
 import { motion } from 'framer-motion'
 import { AnimatedCounter } from '@/components/shared/animated-counter'
 import { Clock, TrendingUp, Zap, Target } from 'lucide-react'
+import { useTranslations } from 'next-intl'
 
-const metrics = [
-  {
-    icon: Clock,
-    value: 24,
-    suffix: '/7',
-    label: 'Always-On Automation',
-    description: 'Your AI works around the clock',
-  },
-  {
-    icon: TrendingUp,
-    value: 50,
-    suffix: '%+',
-    label: 'Time Saved',
-    description: 'On manual repetitive tasks',
-  },
-  {
-    icon: Zap,
-    value: 3,
-    suffix: 'x',
-    label: 'Faster Response',
-    description: 'Customer query resolution',
-  },
-  {
-    icon: Target,
-    value: 100,
-    suffix: '%',
-    label: 'Lead Capture',
-    description: 'Never miss an opportunity',
-  },
+const metricIcons = [Clock, TrendingUp, Zap, Target]
+const metricValues = [
+  { value: 24, suffix: '/7' },
+  { value: 50, suffix: '%+' },
+  { value: 3, suffix: 'x' },
+  { value: 100, suffix: '%' },
 ]
 
 export function Metrics() {
+  const t = useTranslations('metrics')
+
+  const metrics = [
+    { icon: metricIcons[0], ...metricValues[0], label: t('items.alwaysOn.label'), description: t('items.alwaysOn.description') },
+    { icon: metricIcons[1], ...metricValues[1], label: t('items.timeSaved.label'), description: t('items.timeSaved.description') },
+    { icon: metricIcons[2], ...metricValues[2], label: t('items.fasterResponse.label'), description: t('items.fasterResponse.description') },
+    { icon: metricIcons[3], ...metricValues[3], label: t('items.leadCapture.label'), description: t('items.leadCapture.description') },
+  ]
+
   return (
     <section className="section relative overflow-hidden">
       {/* Background */}
@@ -58,13 +45,13 @@ export function Metrics() {
           className="text-center mb-16"
         >
           <span className="inline-block px-4 py-1.5 rounded-full bg-accent-blue/10 border border-accent-blue/20 text-accent-blue text-sm font-medium mb-4">
-            By The Numbers
+            {t('badge')}
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-white mb-4">
-            Real Results for <span className="gradient-text">Real Businesses</span>
+            {t('title')} <span className="gradient-text">{t('titleHighlight')}</span>
           </h2>
           <p className="text-muted max-w-2xl mx-auto text-lg">
-            LIMITLESS AI&apos;s impact is quantified by our success metrics, showcasing the tangible benefits our AI solutions bring.
+            {t('subtitle')}
           </p>
         </motion.div>
 

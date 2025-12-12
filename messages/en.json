@@ -1,0 +1,429 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "caseStudies": "Case Studies",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "badge": "AI-Powered Business Automation",
+    "headline1": "Automate. Integrate.",
+    "headline2": "Elevate.",
+    "subheadline": "Smart AI Solutions That Power the Future of Business",
+    "description": "Transform your operations with intelligent automation. Our AI handles leads, calls, bookings, and workflows 24/7 — so you never miss an opportunity.",
+    "descriptionHighlight": "Scale faster. Work smarter. Win bigger.",
+    "exploreServices": "Explore Services",
+    "bookCall": "Book a Call",
+    "stats": {
+      "alwaysOn": "Always-On",
+      "timeSaved": "Time Saved",
+      "fasterResponse": "Faster Response",
+      "leadCapture": "Lead Capture"
+    },
+    "scroll": "Scroll"
+  },
+  "services": {
+    "badge": "Our Services",
+    "title": "Intelligent Solutions for",
+    "titleHighlight": "Modern Business",
+    "subtitle": "We build the tools that help your business save time, reduce costs, and scale with confidence.",
+    "learnMore": "Learn More",
+    "viewAll": "View All Services",
+    "systemAutomation": {
+      "title": "System Automations",
+      "tagline": "Your business on autopilot",
+      "description": "Transform the way your business operates with intelligent automation. We create seamless AI-powered workflows that eliminate manual tasks.",
+      "features": ["CRM Syncing", "Automated Follow-ups", "Process Integration"]
+    },
+    "chatbot": {
+      "title": "Intelligent Chatbots",
+      "tagline": "24/7 conversations that convert",
+      "description": "AI-powered chatbots that work around the clock. Instantly answer questions, qualify leads, and book appointments.",
+      "features": ["Lead Qualification", "Appointment Booking", "24/7 Support"]
+    },
+    "website": {
+      "title": "Website Design",
+      "tagline": "Digital presence that dominates",
+      "description": "Modern, high-converting websites designed for performance. Clean, fast, mobile-responsive sites that turn visitors into customers.",
+      "features": ["Mobile Responsive", "SEO Optimized", "High Converting"]
+    },
+    "receptionist": {
+      "title": "AI Receptionist",
+      "tagline": "Never miss another opportunity",
+      "description": "Our AI Receptionist handles enquiries, books appointments, responds instantly, and manages follow-ups 24/7.",
+      "features": ["Call Handling", "Instant Responses", "Smart Routing"]
+    }
+  },
+  "process": {
+    "badge": "Our Process",
+    "title": "How We",
+    "titleHighlight": "Transform",
+    "titleEnd": "Your Business",
+    "subtitle": "A proven methodology to deliver exceptional AI automation solutions that drive real results.",
+    "steps": {
+      "discovery": {
+        "title": "Discovery",
+        "description": "We start by understanding your business challenges, goals, and current workflows to identify the best automation opportunities."
+      },
+      "strategy": {
+        "title": "Strategy",
+        "description": "We design a custom AI solution tailored to your specific needs, outlining the tools, integrations, and workflows required."
+      },
+      "implementation": {
+        "title": "Implementation",
+        "description": "Our team builds and deploys your automation systems with careful testing to ensure everything works seamlessly."
+      },
+      "optimization": {
+        "title": "Optimization",
+        "description": "We continuously monitor, refine, and optimize your systems to deliver the best results and ROI over time."
+      }
+    }
+  },
+  "metrics": {
+    "badge": "By The Numbers",
+    "title": "Real Results for",
+    "titleHighlight": "Real Businesses",
+    "subtitle": "LIMITLESS AI's impact is quantified by our success metrics, showcasing the tangible benefits our AI solutions bring.",
+    "items": {
+      "alwaysOn": {
+        "label": "Always-On Automation",
+        "description": "Your AI works around the clock"
+      },
+      "timeSaved": {
+        "label": "Time Saved",
+        "description": "On manual repetitive tasks"
+      },
+      "fasterResponse": {
+        "label": "Faster Response",
+        "description": "Customer query resolution"
+      },
+      "leadCapture": {
+        "label": "Lead Capture",
+        "description": "Never miss an opportunity"
+      }
+    }
+  },
+  "caseStudies": {
+    "badge": "Success Stories",
+    "title": "Client",
+    "titleHighlight": "Projects",
+    "subtitle": "Discover how LIMITLESS AI has transformed businesses with our innovative solutions.",
+    "viewCaseStudy": "View Case Study",
+    "viewAll": "View All Projects",
+    "items": {
+      "chatbot": {
+        "category": "Chatbot Development",
+        "title": "Revolutionizing Interactions",
+        "description": "Explore how our chatbot development services have revolutionized customer interactions, providing seamless experiences and efficient communication.",
+        "result": "70% reduction in response time"
+      },
+      "website": {
+        "category": "Website Creation",
+        "title": "Digital Presence Reinvented",
+        "description": "Learn about our responsive website creation process that focuses on creating engaging, SEO-friendly websites optimized for success.",
+        "result": "3x increase in conversions"
+      },
+      "automation": {
+        "category": "Automation Services",
+        "title": "Efficiency Redefined",
+        "description": "Experience the power of automation with our system integration services that streamline processes, reduce errors, and increase productivity.",
+        "result": "50% time saved daily"
+      },
+      "receptionist": {
+        "category": "AI Receptionist",
+        "title": "Tailored to You",
+        "description": "AI Receptionist handles enquiries, books appointments, responds instantly, and manages follow-ups 24/7 while integrating with your existing systems.",
+        "result": "100% lead capture rate"
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Client Success Stories",
+    "title": "Trusted by",
+    "titleHighlight": "Businesses Worldwide",
+    "subtitle": "From London to Ethiopia to Spain — businesses across the globe trust LIMITLESS AI to transform their operations.",
+    "averageRating": "5.0 Average Rating",
+    "verifiedReviews": "100% Verified Reviews",
+    "verifiedClient": "Verified Client",
+    "items": {
+      "edutechLabs": {
+        "company": "EdutechLabs Global",
+        "location": "London, UK",
+        "content": "The consulting expertise from LIMITLESS AI was nothing short of exceptional. They didn't just implement solutions—they transformed our entire approach to educational technology. Their strategic insights helped us identify automation opportunities we never knew existed. Within three months, we scaled our operations across 12 countries. An absolute game-changer for global EdTech."
+      },
+      "architectBureau": {
+        "company": "Architect Bureau",
+        "location": "Addis Ababa, Ethiopia",
+        "content": "LIMITLESS AI understood the unique challenges of running an architecture firm in East Africa. Their intelligent systems now handle client communications, project scheduling, and follow-ups seamlessly. We've seen a 200% increase in project inquiries and never miss an opportunity. They delivered world-class service that rivals anything I've seen internationally."
+      },
+      "pristine": {
+        "company": "Pristine",
+        "location": "Marbella, Spain",
+        "content": "Our administrative workload was drowning our team until LIMITLESS AI stepped in. They automated everything—scheduling, employee management, client communications, invoicing—the works. Our staff now focuses on delivering exceptional service instead of paperwork. It's like having an entire operations department working 24/7. Absolutely revolutionary for our business."
+      }
+    }
+  },
+  "cta": {
+    "badge": "Ready to Transform?",
+    "title": "Ready to Unlock",
+    "titleHighlight": "Limitless Growth?",
+    "description": "Transform your business with cutting-edge AI solutions. Reach out today and let's start a journey towards innovation and growth.",
+    "bookCall": "Book Your Free Strategy Call",
+    "exploreServices": "Explore Services",
+    "trustedBy": "Trusted by businesses across the UK"
+  },
+  "footer": {
+    "tagline": "Smart AI Solutions That Power the Future of Business. Transform your operations with intelligent automation that works 24/7.",
+    "navigation": "Navigation",
+    "legalTitle": "Legal",
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "caseStudies": "Case Studies",
+      "contact": "Contact"
+    },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions",
+      "accessibility": "Accessibility",
+      "refund": "Refund Policy"
+    },
+    "copyright": "All rights reserved."
+  },
+  "contact": {
+    "badge": "Get Started",
+    "title": "Let's Start Your",
+    "titleHighlight": "Automation Journey",
+    "subtitle": "Ready to transform your business with cutting-edge AI solutions? Reach out today and let's start a journey towards innovation.",
+    "sendMessage": "Send Us a Message",
+    "contactInfo": "Contact Information",
+    "email": "Email",
+    "address": "Address",
+    "responseTime": "Response Time",
+    "responseTimeValue": "Within 24 hours",
+    "whyWorkWithUs": "Why Work With Us?",
+    "benefits": {
+      "consultation": {
+        "title": "Free Consultation",
+        "description": "Book a no-obligation call to discuss your automation needs"
+      },
+      "turnaround": {
+        "title": "Quick Turnaround",
+        "description": "Get your custom solution up and running in weeks, not months"
+      },
+      "support": {
+        "title": "Ongoing Support",
+        "description": "Continuous optimization and support after launch"
+      }
+    },
+    "trustedBy": "Trusted by UK Businesses",
+    "trustedBySubtitle": "Join businesses already saving time with AI"
+  },
+  "contactForm": {
+    "success": {
+      "title": "Message Sent!",
+      "message": "Thanks for reaching out. We'll get back to you within 24 hours."
+    },
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "required": "*",
+    "placeholders": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john@company.com",
+      "phone": "+44 123 456 7890",
+      "message": "Tell us about your business and what you're looking to automate..."
+    },
+    "sending": "Sending...",
+    "send": "Send Message"
+  },
+  "chat": {
+    "title": "LIMITLESS AI",
+    "subtitle": "We typically reply instantly",
+    "welcomeMessage": "Hi there! Welcome to LIMITLESS AI. How can I help you automate your business today?",
+    "followUp": "Feel free to ask about our services or schedule a free consultation!",
+    "placeholder": "Type your message...",
+    "poweredBy": "Powered by LIMITLESS AI"
+  },
+  "servicesPage": {
+    "badge": "Our Services",
+    "title": "Intelligent Solutions for",
+    "titleHighlight": "Modern Business",
+    "subtitle": "At Limitless AI, we help businesses grow faster by turning manual work into fully automated, intelligent systems. Our services are designed to streamline operations, boost customer engagement, and create a smarter, more efficient workflow across your entire business.",
+    "keyFeatures": "Key Features",
+    "getStarted": "Get Started",
+    "systemAutomation": {
+      "title": "System Automation",
+      "tagline": "Your business on autopilot",
+      "description": "Transform the way your business operates with intelligent automation. We map out your processes, integrate your tools, and create seamless AI-powered workflows that eliminate manual tasks, reduce errors, and save hours every day.",
+      "longDescription": "From CRM syncing to automated follow-ups and internal operations, we build systems that help your business run smoother, faster, and more efficiently on autopilot.",
+      "features": [
+        "Workflow mapping and optimization",
+        "CRM and tool integration",
+        "Automated follow-up sequences",
+        "Error reduction and quality control",
+        "Real-time data syncing",
+        "Custom trigger-based actions"
+      ]
+    },
+    "chatbot": {
+      "title": "Intelligent Chatbot",
+      "tagline": "24/7 conversations that convert",
+      "description": "Bring your customer experience into the future with AI-powered chatbots that work 24/7. Our intelligent chatbots instantly answer questions, qualify leads, book appointments, and provide personalised support without the need for human intervention.",
+      "longDescription": "Designed to integrate seamlessly with your website and CRM, they help you convert more visitors, reduce response times, and automate customer service at scale.",
+      "features": [
+        "24/7 instant customer responses",
+        "Intelligent lead qualification",
+        "Automated appointment booking",
+        "Personalized conversation flows",
+        "CRM and calendar integration",
+        "Multi-language support"
+      ]
+    },
+    "website": {
+      "title": "Website Design",
+      "tagline": "Digital presence that dominates",
+      "description": "Create a powerful online presence with modern, high-converting websites designed for performance and growth. We build clean, fast, mobile-responsive sites that reflect your brand and turn visitors into customers.",
+      "longDescription": "From smart layouts to seamless user experiences, every page is crafted with purpose — helping your business stand out, build trust, and drive results.",
+      "features": [
+        "Modern, responsive design",
+        "SEO optimization built-in",
+        "High-speed performance",
+        "Conversion-focused layouts",
+        "Brand-aligned aesthetics",
+        "Analytics integration"
+      ]
+    },
+    "receptionist": {
+      "title": "AI Receptionist",
+      "tagline": "Never miss another opportunity",
+      "description": "Never miss a customer, call, or opportunity again. Our AI Receptionist handles enquiries, books appointments, responds instantly to messages, and manages follow-ups 24/7.",
+      "longDescription": "It greets your customers, answers common questions, and directs people to the right place, all while integrating seamlessly with your existing systems. Faster responses, better service, and more conversions — all on autopilot.",
+      "features": [
+        "24/7 call and message handling",
+        "Intelligent enquiry routing",
+        "Automated appointment scheduling",
+        "Follow-up management",
+        "CRM and calendar sync",
+        "Custom voice and personality"
+      ]
+    }
+  },
+  "caseStudiesPage": {
+    "badge": "Success Stories",
+    "title": "Client",
+    "titleHighlight": "Projects",
+    "subtitle": "Discover how LIMITLESS AI has transformed businesses with our innovative solutions. Each case study showcases our expertise in AI integration and system automation.",
+    "theChallenge": "The Challenge",
+    "ourSolution": "Our Solution",
+    "resultsAchieved": "Results Achieved",
+    "items": {
+      "chatbot": {
+        "category": "Chatbot Development",
+        "title": "Revolutionizing Customer Interactions",
+        "client": "E-commerce Platform",
+        "challenge": "A growing e-commerce business was struggling to handle increasing customer enquiries, leading to slow response times and lost sales opportunities.",
+        "solution": "We implemented an AI-powered chatbot that handles product inquiries, order tracking, returns, and FAQs 24/7. The chatbot integrates with their inventory system for real-time product availability.",
+        "results": {
+          "responseTime": {
+            "label": "Response Time",
+            "value": "70%",
+            "description": "reduction in average response time"
+          },
+          "satisfaction": {
+            "label": "Customer Satisfaction",
+            "value": "45%",
+            "description": "increase in CSAT scores"
+          },
+          "conversion": {
+            "label": "Sales Conversion",
+            "value": "25%",
+            "description": "increase in chat-to-sale conversion"
+          }
+        }
+      },
+      "website": {
+        "category": "Website Creation",
+        "title": "Digital Presence Reinvented",
+        "client": "Professional Services Firm",
+        "challenge": "An established consultancy firm had an outdated website that wasn't generating leads or reflecting their expertise in the market.",
+        "solution": "We designed and built a modern, SEO-optimized website with a focus on lead generation. Features include case study showcases, service pages, and integrated booking system.",
+        "results": {
+          "traffic": {
+            "label": "Organic Traffic",
+            "value": "3x",
+            "description": "increase in monthly visitors"
+          },
+          "leads": {
+            "label": "Lead Generation",
+            "value": "200%",
+            "description": "more enquiries per month"
+          },
+          "pageLoad": {
+            "label": "Page Load",
+            "value": "<2s",
+            "description": "average page load time"
+          }
+        }
+      },
+      "automation": {
+        "category": "Automation Services",
+        "title": "Efficiency Redefined",
+        "client": "Marketing Agency",
+        "challenge": "A marketing agency was spending too much time on manual data entry, client reporting, and project management tasks, limiting their growth capacity.",
+        "solution": "We automated their entire workflow: from client onboarding to reporting. Systems now auto-update CRM records, generate reports, and trigger notifications at key milestones.",
+        "results": {
+          "timeSaved": {
+            "label": "Time Saved",
+            "value": "50%",
+            "description": "reduction in admin tasks"
+          },
+          "errorRate": {
+            "label": "Error Rate",
+            "value": "90%",
+            "description": "fewer data entry errors"
+          },
+          "capacity": {
+            "label": "Client Capacity",
+            "value": "40%",
+            "description": "more clients handled"
+          }
+        }
+      },
+      "receptionist": {
+        "category": "AI Receptionist",
+        "title": "Never Miss Another Lead",
+        "client": "Healthcare Clinic",
+        "challenge": "A busy medical clinic was missing calls during peak hours and after-hours, resulting in lost appointment bookings and frustrated patients.",
+        "solution": "We deployed an AI Receptionist that handles calls 24/7, books appointments directly into their system, answers common questions, and escalates urgent matters appropriately.",
+        "results": {
+          "callHandling": {
+            "label": "Call Handling",
+            "value": "100%",
+            "description": "of calls answered"
+          },
+          "bookings": {
+            "label": "Bookings",
+            "value": "35%",
+            "description": "increase in appointments"
+          },
+          "afterHours": {
+            "label": "After-Hours",
+            "value": "24/7",
+            "description": "availability achieved"
+          }
+        }
+      }
+    }
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "bookCall": "Book a Call",
+    "viewAll": "View All"
+  }
+}

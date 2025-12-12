@@ -3,8 +3,10 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { MessageCircle, X } from 'lucide-react'
+import { useTranslations } from 'next-intl'
 
 export function ChatWidget() {
+  const t = useTranslations('chat')
   const [isOpen, setIsOpen] = useState(false)
 
   return (
@@ -27,7 +29,7 @@ export function ChatWidget() {
                   </div>
                   <div>
                     <h3 className="text-white font-semibold">LIMITLESS AI</h3>
-                    <p className="text-white/80 text-sm">We typically reply instantly</p>
+                    <p className="text-white/80 text-sm">{t('subtitle')}</p>
                   </div>
                 </div>
                 <button
@@ -49,7 +51,7 @@ export function ChatWidget() {
                   </div>
                   <div className="bg-white/10 rounded-2xl rounded-tl-none px-4 py-3 max-w-[80%]">
                     <p className="text-white text-sm">
-                      Hi there! 👋 Welcome to LIMITLESS AI. How can I help you automate your business today?
+                      {t('welcomeMessage')}
                     </p>
                   </div>
                 </div>
@@ -60,7 +62,7 @@ export function ChatWidget() {
                   </div>
                   <div className="bg-white/10 rounded-2xl rounded-tl-none px-4 py-3 max-w-[80%]">
                     <p className="text-white text-sm">
-                      Feel free to ask about our services or schedule a free consultation!
+                      {t('followUp')}
                     </p>
                   </div>
                 </div>
@@ -72,7 +74,7 @@ export function ChatWidget() {
               <div className="flex items-center space-x-2">
                 <input
                   type="text"
-                  placeholder="Type your message..."
+                  placeholder={t('placeholder')}
                   className="flex-1 bg-white/10 border border-white/20 rounded-full px-4 py-2 text-white placeholder-white/50 focus:outline-none focus:border-accent-purple transition-colors text-sm"
                 />
                 <button className="w-10 h-10 rounded-full bg-gradient-primary flex items-center justify-center hover:shadow-glow-purple transition-shadow">
@@ -92,7 +94,7 @@ export function ChatWidget() {
                 </button>
               </div>
               <p className="text-center text-white/40 text-xs mt-2">
-                Powered by LIMITLESS AI
+                {t('poweredBy')}
               </p>
             </div>
           </motion.div>

@@ -1,24 +1,28 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import { useLocale, useTranslations } from 'next-intl'
+import { Link, usePathname } from '@/i18n/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Menu, X } from 'lucide-react'
+import { Menu, X, ChevronDown, Globe } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { MagneticButton } from '@/components/shared/magnetic-button'
-
-const navLinks = [
-  { href: '/', label: 'Home' },
-  { href: '/services', label: 'Services' },
-  { href: '/case-studies', label: 'Case Studies' },
-  { href: '/contact', label: 'Contact' },
-]
+import { locales, localeNames, type Locale } from '@/i18n'
 
 export function Navbar() {
+  const t = useTranslations('nav')
+  const locale = useLocale() as Locale
+  const pathname = usePathname()
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
-  const pathname = usePathname()
+  const [isLangMenuOpen, setIsLangMenuOpen] = useState(false)
+
+  const navLinks = [
+    { href: '/', label: t('home') },
+    { href: '/services', label: t('services') },
+    { href: '/case-studies', label: t('caseStudies') },
+    { href: '/contact', label: t('contact') },
+  ]
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,6 +31,15 @@ export function Navbar() {
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
+
+  // Close language menu when clicking outside
+  useEffect(() => {
+    const handleClickOutside = () => setIsLangMenuOpen(false)
+    if (isLangMenuOpen) {
+      document.addEventListener('click', handleClickOutside)
+      return () => document.removeEventListener('click', handleClickOutside)
+    }
+  }, [isLangMenuOpen])
 
   return (
     <>
@@ -88,9 +101,55 @@ export function Navbar() {
                   </Link>
                 )
               })}
-              <div className="ml-4">
+
+              {/* Language Switcher */}
+              <div className="relative ml-2">
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation()
+                    setIsLangMenuOpen(!isLangMenuOpen)
+                  }}
+                  className="flex items-center space-x-1.5 px-3 py-2 text-sm font-medium text-gray-400 hover:text-white rounded-full hover:bg-white/5 transition-colors"
+                >
+                  <Globe className="w-4 h-4" />
+                  <span className="uppercase">{locale}</span>
+                  <ChevronDown className={cn('w-3 h-3 transition-transform', isLangMenuOpen && 'rotate-180')} />
+                </button>
+
+                <AnimatePresence>
+                  {isLangMenuOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, y: -10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -10 }}
+                      transition={{ duration: 0.2 }}
+                      className="absolute right-0 mt-2 w-40 py-2 bg-[#0f0f1a] border border-white/10 rounded-xl shadow-xl overflow-hidden"
+                    >
+                      {locales.map((loc) => (
+                        <Link
+                          key={loc}
+                          href={pathname}
+                          locale={loc}
+                          onClick={() => setIsLangMenuOpen(false)}
+                          className={cn(
+                            'w-full px-4 py-2.5 text-left text-sm transition-colors flex items-center justify-between',
+                            loc === locale
+                              ? 'bg-purple-500/20 text-purple-400'
+                              : 'text-gray-400 hover:text-white hover:bg-white/5'
+                          )}
+                        >
+                          <span>{localeNames[loc]}</span>
+                          <span className="text-xs uppercase opacity-50">{loc}</span>
+                        </Link>
+                      ))}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+
+              <div className="ml-2">
                 <MagneticButton href="/contact" variant="primary" className="text-sm px-6 py-2.5">
-                  Get Started
+                  {t('getStarted')}
                 </MagneticButton>
               </div>
             </div>
@@ -179,10 +238,39 @@ export function Navbar() {
                     </motion.div>
                   )
                 })}
+
+                {/* Mobile Language Switcher */}
                 <motion.div
                   initial={{ opacity: 0, x: 20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: 0.4 }}
+                  className="pt-4 border-t border-white/10"
+                >
+                  <p className="px-4 py-2 text-sm text-gray-500 uppercase tracking-wider">Language</p>
+                  <div className="grid grid-cols-2 gap-2">
+                    {locales.map((loc) => (
+                      <Link
+                        key={loc}
+                        href={pathname}
+                        locale={loc}
+                        onClick={() => setIsMobileMenuOpen(false)}
+                        className={cn(
+                          'py-3 px-4 rounded-xl text-sm font-medium transition-all text-center',
+                          loc === locale
+                            ? 'bg-purple-500/20 text-purple-400 border border-purple-500/30'
+                            : 'text-gray-400 hover:text-white bg-white/5 hover:bg-white/10'
+                        )}
+                      >
+                        {localeNames[loc]}
+                      </Link>
+                    ))}
+                  </div>
+                </motion.div>
+
+                <motion.div
+                  initial={{ opacity: 0, x: 20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.5 }}
                   className="pt-6"
                 >
                   <Link
@@ -194,7 +282,7 @@ export function Navbar() {
                       boxShadow: '0 0 30px rgba(139, 92, 246, 0.3)',
                     }}
                   >
-                    Get Started
+                    {t('getStarted')}
                   </Link>
                 </motion.div>
               </div>

@@ -1,50 +1,56 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Mail, MapPin, Phone, Clock, MessageSquare, ArrowRight } from 'lucide-react'
+import { Mail, MapPin, Clock, MessageSquare, Phone } from 'lucide-react'
 import { ContactForm } from '@/components/shared/contact-form'
 import { GlassCard } from '@/components/shared/glass-card'
+import { useTranslations } from 'next-intl'
 
-const contactInfo = [
-  {
-    icon: Mail,
-    label: 'Email',
-    value: 'Support@limitlessai.online',
-    href: 'mailto:Support@limitlessai.online',
-  },
-  {
-    icon: MapPin,
-    label: 'Address',
-    value: '1B Halford St, Leicester LE1 1JA, UK',
-    href: 'https://maps.google.com/?q=1B+Halford+St,+Leicester+LE1+1JA,+UK',
-  },
-  {
-    icon: Clock,
-    label: 'Response Time',
-    value: 'Within 24 hours',
-    href: null,
-  },
-]
-
-const benefits = [
-  {
-    icon: MessageSquare,
-    title: 'Free Consultation',
-    description: 'Book a no-obligation call to discuss your automation needs',
-  },
-  {
-    icon: Clock,
-    title: 'Quick Turnaround',
-    description: 'Get your custom solution up and running in weeks, not months',
-  },
-  {
-    icon: Phone,
-    title: 'Ongoing Support',
-    description: 'Continuous optimization and support after launch',
-  },
-]
+const contactIcons = [Mail, MapPin, Clock]
+const benefitIcons = [MessageSquare, Clock, Phone]
 
 export default function ContactPage() {
+  const t = useTranslations('contact')
+
+  const contactInfo = [
+    {
+      icon: contactIcons[0],
+      label: t('email'),
+      value: 'Support@limitlessai.online',
+      href: 'mailto:Support@limitlessai.online',
+    },
+    {
+      icon: contactIcons[1],
+      label: t('address'),
+      value: '1B Halford St, Leicester LE1 1JA, UK',
+      href: 'https://maps.google.com/?q=1B+Halford+St,+Leicester+LE1+1JA,+UK',
+    },
+    {
+      icon: contactIcons[2],
+      label: t('responseTime'),
+      value: t('responseTimeValue'),
+      href: null,
+    },
+  ]
+
+  const benefits = [
+    {
+      icon: benefitIcons[0],
+      title: t('benefits.consultation.title'),
+      description: t('benefits.consultation.description'),
+    },
+    {
+      icon: benefitIcons[1],
+      title: t('benefits.turnaround.title'),
+      description: t('benefits.turnaround.description'),
+    },
+    {
+      icon: benefitIcons[2],
+      title: t('benefits.support.title'),
+      description: t('benefits.support.description'),
+    },
+  ]
+
   return (
     <>
       {/* Hero Section */}
@@ -60,15 +66,15 @@ export default function ContactPage() {
             className="text-center"
           >
             <span className="inline-block px-4 py-1.5 rounded-full bg-accent-purple/10 border border-accent-purple/20 text-accent-purple text-sm font-medium mb-6">
-              Get Started
+              {t('badge')}
             </span>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-heading font-bold text-white mb-6">
-              Let&apos;s Start Your
+              {t('title')}
               <br />
-              <span className="gradient-text">Automation Journey</span>
+              <span className="gradient-text">{t('titleHighlight')}</span>
             </h1>
             <p className="text-lg text-muted max-w-2xl mx-auto">
-              Ready to transform your business with cutting-edge AI solutions? Reach out today and let&apos;s start a journey towards innovation.
+              {t('subtitle')}
             </p>
           </motion.div>
         </div>
@@ -85,7 +91,7 @@ export default function ContactPage() {
               transition={{ duration: 0.5 }}
             >
               <h2 className="text-2xl font-heading font-bold text-white mb-6">
-                Send Us a Message
+                {t('sendMessage')}
               </h2>
               <ContactForm />
             </motion.div>
@@ -99,7 +105,7 @@ export default function ContactPage() {
             >
               <div>
                 <h2 className="text-2xl font-heading font-bold text-white mb-6">
-                  Contact Information
+                  {t('contactInfo')}
                 </h2>
                 <div className="space-y-4">
                   {contactInfo.map((item, index) => {
@@ -138,7 +144,7 @@ export default function ContactPage() {
               {/* Benefits */}
               <div>
                 <h3 className="text-xl font-heading font-bold text-white mb-6">
-                  Why Work With Us?
+                  {t('whyWorkWithUs')}
                 </h3>
                 <div className="space-y-4">
                   {benefits.map((benefit, index) => {
@@ -183,10 +189,10 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <div className="text-white font-semibold">
-                      Trusted by UK Businesses
+                      {t('trustedBy')}
                     </div>
                     <div className="text-muted text-sm">
-                      Join businesses already saving time with AI
+                      {t('trustedBySubtitle')}
                     </div>
                   </div>
                 </div>

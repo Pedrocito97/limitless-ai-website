@@ -1,20 +1,8 @@
-import Link from 'next/link'
-import { Mail, MapPin } from 'lucide-react'
+'use client'
 
-const footerLinks = {
-  navigation: [
-    { href: '/', label: 'Home' },
-    { href: '/services', label: 'Services' },
-    { href: '/case-studies', label: 'Case Studies' },
-    { href: '/contact', label: 'Contact' },
-  ],
-  legal: [
-    { href: '/privacy', label: 'Privacy Policy' },
-    { href: '/terms', label: 'Terms & Conditions' },
-    { href: '/accessibility', label: 'Accessibility' },
-    { href: '/refund', label: 'Refund Policy' },
-  ],
-}
+import { Mail, MapPin } from 'lucide-react'
+import { useTranslations } from 'next-intl'
+import { Link } from '@/i18n/navigation'
 
 const socialLinks = [
   {
@@ -56,6 +44,22 @@ const socialLinks = [
 ]
 
 export function Footer() {
+  const t = useTranslations('footer')
+
+  const navLinks = [
+    { href: '/', label: t('nav.home') },
+    { href: '/services', label: t('nav.services') },
+    { href: '/case-studies', label: t('nav.caseStudies') },
+    { href: '/contact', label: t('nav.contact') },
+  ]
+
+  const legalLinks = [
+    { href: '/privacy', label: t('legal.privacy') },
+    { href: '/terms', label: t('legal.terms') },
+    { href: '/accessibility', label: t('legal.accessibility') },
+    { href: '/refund', label: t('legal.refund') },
+  ]
+
   return (
     <footer className="relative bg-background-secondary border-t border-white/10">
       {/* Gradient overlay */}
@@ -72,7 +76,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-muted max-w-md mb-6">
-              Smart AI Solutions That Power the Future of Business. Transform your operations with intelligent automation that works 24/7.
+              {t('tagline')}
             </p>
             <div className="flex items-center space-x-4 mb-4">
               <Mail className="w-5 h-5 text-accent-purple" />
@@ -94,10 +98,10 @@ export function Footer() {
           {/* Navigation */}
           <div>
             <h3 className="text-white font-heading font-semibold mb-6">
-              Navigation
+              {t('navigation')}
             </h3>
             <ul className="space-y-4">
-              {footerLinks.navigation.map((link) => (
+              {navLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
@@ -113,10 +117,10 @@ export function Footer() {
           {/* Legal */}
           <div>
             <h3 className="text-white font-heading font-semibold mb-6">
-              Legal
+              {t('legalTitle')}
             </h3>
             <ul className="space-y-4">
-              {footerLinks.legal.map((link) => (
+              {legalLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
@@ -134,7 +138,7 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             <p className="text-muted text-sm">
-              &copy; {new Date().getFullYear()} LIMITLESS AI. All rights reserved.
+              &copy; {new Date().getFullYear()} LIMITLESS AI. {t('copyright')}
             </p>
 
             {/* Social Links */}

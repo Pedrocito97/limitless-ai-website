@@ -1,0 +1,429 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Diensten",
+    "caseStudies": "Casestudies",
+    "contact": "Contact",
+    "getStarted": "Aan de slag"
+  },
+  "hero": {
+    "badge": "AI-Gestuurde Bedrijfsautomatisering",
+    "headline1": "Automatiseer. Integreer.",
+    "headline2": "Verhef.",
+    "subheadline": "Slimme AI-Oplossingen die de Toekomst van Bedrijven Aandrijven",
+    "description": "Transformeer uw bedrijfsvoering met intelligente automatisering. Onze AI behandelt leads, oproepen, boekingen en workflows 24/7 — zodat u nooit een kans mist.",
+    "descriptionHighlight": "Schaal sneller. Werk slimmer. Win groter.",
+    "exploreServices": "Ontdek Diensten",
+    "bookCall": "Boek een Gesprek",
+    "stats": {
+      "alwaysOn": "Altijd Actief",
+      "timeSaved": "Tijd Bespaard",
+      "fasterResponse": "Snellere Reactie",
+      "leadCapture": "Lead Capture"
+    },
+    "scroll": "Scroll"
+  },
+  "services": {
+    "badge": "Onze Diensten",
+    "title": "Intelligente Oplossingen voor",
+    "titleHighlight": "Modern Bedrijfsleven",
+    "subtitle": "Wij bouwen de tools die uw bedrijf helpen tijd te besparen, kosten te verlagen en met vertrouwen te groeien.",
+    "learnMore": "Meer Informatie",
+    "viewAll": "Bekijk Alle Diensten",
+    "systemAutomation": {
+      "title": "Systeemautomatisering",
+      "tagline": "Uw bedrijf op de automatische piloot",
+      "description": "Transformeer de manier waarop uw bedrijf opereert met intelligente automatisering. Wij creëren naadloze AI-gestuurde workflows die handmatige taken elimineren.",
+      "features": ["CRM Synchronisatie", "Geautomatiseerde Follow-ups", "Procesintegratie"]
+    },
+    "chatbot": {
+      "title": "Intelligente Chatbots",
+      "tagline": "24/7 gesprekken die converteren",
+      "description": "AI-gestuurde chatbots die de klok rond werken. Beantwoord direct vragen, kwalificeer leads en boek afspraken.",
+      "features": ["Lead Kwalificatie", "Afspraak Boeken", "24/7 Ondersteuning"]
+    },
+    "website": {
+      "title": "Website Ontwerp",
+      "tagline": "Digitale aanwezigheid die domineert",
+      "description": "Moderne, converterende websites ontworpen voor prestaties. Schone, snelle, mobiel-responsieve sites die bezoekers omzetten in klanten.",
+      "features": ["Mobiel Responsief", "SEO Geoptimaliseerd", "Hoog Converterend"]
+    },
+    "receptionist": {
+      "title": "AI Receptionist",
+      "tagline": "Mis nooit meer een kans",
+      "description": "Onze AI Receptionist behandelt vragen, boekt afspraken, reageert direct en beheert follow-ups 24/7.",
+      "features": ["Oproepafhandeling", "Directe Reacties", "Slimme Routing"]
+    }
+  },
+  "process": {
+    "badge": "Ons Proces",
+    "title": "Hoe Wij Uw",
+    "titleHighlight": "Bedrijf",
+    "titleEnd": "Transformeren",
+    "subtitle": "Een bewezen methodologie om uitzonderlijke AI-automatiseringsoplossingen te leveren die echte resultaten opleveren.",
+    "steps": {
+      "discovery": {
+        "title": "Ontdekking",
+        "description": "We beginnen met het begrijpen van uw zakelijke uitdagingen, doelen en huidige workflows om de beste automatiseringsmogelijkheden te identificeren."
+      },
+      "strategy": {
+        "title": "Strategie",
+        "description": "We ontwerpen een op maat gemaakte AI-oplossing afgestemd op uw specifieke behoeften, met de benodigde tools, integraties en workflows."
+      },
+      "implementation": {
+        "title": "Implementatie",
+        "description": "Ons team bouwt en implementeert uw automatiseringssystemen met zorgvuldige tests om ervoor te zorgen dat alles naadloos werkt."
+      },
+      "optimization": {
+        "title": "Optimalisatie",
+        "description": "We monitoren, verfijnen en optimaliseren uw systemen continu om de beste resultaten en ROI in de loop van de tijd te leveren."
+      }
+    }
+  },
+  "metrics": {
+    "badge": "In Cijfers",
+    "title": "Echte Resultaten voor",
+    "titleHighlight": "Echte Bedrijven",
+    "subtitle": "De impact van LIMITLESS AI wordt gekwantificeerd door onze succescijfers, die de tastbare voordelen van onze AI-oplossingen tonen.",
+    "items": {
+      "alwaysOn": {
+        "label": "Altijd-Actieve Automatisering",
+        "description": "Uw AI werkt de klok rond"
+      },
+      "timeSaved": {
+        "label": "Tijd Bespaard",
+        "description": "Op handmatige repetitieve taken"
+      },
+      "fasterResponse": {
+        "label": "Snellere Reactie",
+        "description": "Afhandeling van klantvragen"
+      },
+      "leadCapture": {
+        "label": "Lead Capture",
+        "description": "Mis nooit een kans"
+      }
+    }
+  },
+  "caseStudies": {
+    "badge": "Succesverhalen",
+    "title": "Klant",
+    "titleHighlight": "Projecten",
+    "subtitle": "Ontdek hoe LIMITLESS AI bedrijven heeft getransformeerd met onze innovatieve oplossingen.",
+    "viewCaseStudy": "Bekijk Casestudy",
+    "viewAll": "Bekijk Alle Projecten",
+    "items": {
+      "chatbot": {
+        "category": "Chatbot Ontwikkeling",
+        "title": "Revolutionaire Interacties",
+        "description": "Ontdek hoe onze chatbot-ontwikkelingsdiensten klantinteracties hebben gerevolutioneerd, met naadloze ervaringen en efficiënte communicatie.",
+        "result": "70% snellere reactietijd"
+      },
+      "website": {
+        "category": "Website Creatie",
+        "title": "Digitale Aanwezigheid Heruitgevonden",
+        "description": "Leer over ons responsieve website-creatieproces dat zich richt op het maken van boeiende, SEO-vriendelijke websites geoptimaliseerd voor succes.",
+        "result": "3x meer conversies"
+      },
+      "automation": {
+        "category": "Automatiseringsdiensten",
+        "title": "Efficiëntie Opnieuw Gedefinieerd",
+        "description": "Ervaar de kracht van automatisering met onze systeemintegratiediensten die processen stroomlijnen, fouten verminderen en productiviteit verhogen.",
+        "result": "50% tijd bespaard dagelijks"
+      },
+      "receptionist": {
+        "category": "AI Receptionist",
+        "title": "Op Maat Gemaakt voor U",
+        "description": "AI Receptionist behandelt vragen, boekt afspraken, reageert direct en beheert follow-ups 24/7 terwijl het integreert met uw bestaande systemen.",
+        "result": "100% lead capture rate"
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Klant Succesverhalen",
+    "title": "Vertrouwd door",
+    "titleHighlight": "Bedrijven Wereldwijd",
+    "subtitle": "Van Londen tot Ethiopië tot Spanje — bedrijven over de hele wereld vertrouwen op LIMITLESS AI om hun operaties te transformeren.",
+    "averageRating": "5.0 Gemiddelde Beoordeling",
+    "verifiedReviews": "100% Geverifieerde Reviews",
+    "verifiedClient": "Geverifieerde Klant",
+    "items": {
+      "edutechLabs": {
+        "company": "EdutechLabs Global",
+        "location": "Londen, VK",
+        "content": "De consultancy-expertise van LIMITLESS AI was ronduit uitzonderlijk. Ze implementeerden niet alleen oplossingen—ze transformeerden onze hele benadering van onderwijstechnologie. Hun strategische inzichten hielpen ons automatiseringsmogelijkheden te identificeren die we nooit wisten dat ze bestonden. Binnen drie maanden schaalde we onze operaties naar 12 landen. Een absolute game-changer voor wereldwijde EdTech."
+      },
+      "architectBureau": {
+        "company": "Architect Bureau",
+        "location": "Addis Abeba, Ethiopië",
+        "content": "LIMITLESS AI begreep de unieke uitdagingen van het runnen van een architectenbureau in Oost-Afrika. Hun intelligente systemen behandelen nu klantcommunicatie, projectplanning en follow-ups naadloos. We hebben een stijging van 200% in projectaanvragen gezien en missen nooit een kans. Ze leverden service van wereldklasse die alles wat ik internationaal heb gezien evenaart."
+      },
+      "pristine": {
+        "company": "Pristine",
+        "location": "Marbella, Spanje",
+        "content": "Onze administratieve werklast verdronk ons team totdat LIMITLESS AI ingreep. Ze automatiseerden alles—planning, personeelsbeheer, klantcommunicatie, facturatie—het hele pakket. Onze medewerkers richten zich nu op het leveren van uitzonderlijke service in plaats van papierwerk. Het is alsof je een hele operationele afdeling hebt die 24/7 werkt. Absoluut revolutionair voor ons bedrijf."
+      }
+    }
+  },
+  "cta": {
+    "badge": "Klaar om te Transformeren?",
+    "title": "Klaar om",
+    "titleHighlight": "Grenzeloze Groei te Ontgrendelen?",
+    "description": "Transformeer uw bedrijf met geavanceerde AI-oplossingen. Neem vandaag contact op en laten we beginnen aan een reis naar innovatie en groei.",
+    "bookCall": "Boek Uw Gratis Strategiegesprek",
+    "exploreServices": "Ontdek Diensten",
+    "trustedBy": "Vertrouwd door bedrijven in heel het VK"
+  },
+  "footer": {
+    "tagline": "Slimme AI-Oplossingen die de Toekomst van Bedrijven Aandrijven. Transformeer uw operaties met intelligente automatisering die 24/7 werkt.",
+    "navigation": "Navigatie",
+    "legalTitle": "Juridisch",
+    "nav": {
+      "home": "Home",
+      "services": "Diensten",
+      "caseStudies": "Case Studies",
+      "contact": "Contact"
+    },
+    "legal": {
+      "privacy": "Privacybeleid",
+      "terms": "Algemene Voorwaarden",
+      "accessibility": "Toegankelijkheid",
+      "refund": "Retourbeleid"
+    },
+    "copyright": "Alle rechten voorbehouden."
+  },
+  "contact": {
+    "badge": "Aan de Slag",
+    "title": "Laten We Uw",
+    "titleHighlight": "Automatiseringsreis Beginnen",
+    "subtitle": "Klaar om uw bedrijf te transformeren met geavanceerde AI-oplossingen? Neem vandaag contact op en laten we beginnen aan een reis naar innovatie.",
+    "sendMessage": "Stuur Ons een Bericht",
+    "contactInfo": "Contactinformatie",
+    "email": "E-mail",
+    "address": "Adres",
+    "responseTime": "Reactietijd",
+    "responseTimeValue": "Binnen 24 uur",
+    "whyWorkWithUs": "Waarom Met Ons Werken?",
+    "benefits": {
+      "consultation": {
+        "title": "Gratis Consultatie",
+        "description": "Boek een vrijblijvend gesprek om uw automatiseringsbehoeften te bespreken"
+      },
+      "turnaround": {
+        "title": "Snelle Doorlooptijd",
+        "description": "Krijg uw oplossing op maat binnen weken in plaats van maanden"
+      },
+      "support": {
+        "title": "Doorlopende Ondersteuning",
+        "description": "Continue optimalisatie en ondersteuning na lancering"
+      }
+    },
+    "trustedBy": "Vertrouwd door Britse Bedrijven",
+    "trustedBySubtitle": "Sluit u aan bij bedrijven die al tijd besparen met AI"
+  },
+  "contactForm": {
+    "success": {
+      "title": "Bericht Verzonden!",
+      "message": "Bedankt voor uw bericht. We nemen binnen 24 uur contact met u op."
+    },
+    "firstName": "Voornaam",
+    "lastName": "Achternaam",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "message": "Bericht",
+    "required": "*",
+    "placeholders": {
+      "firstName": "Jan",
+      "lastName": "Jansen",
+      "email": "jan@bedrijf.nl",
+      "phone": "+31 6 12345678",
+      "message": "Vertel ons over uw bedrijf en wat u wilt automatiseren..."
+    },
+    "sending": "Verzenden...",
+    "send": "Bericht Versturen"
+  },
+  "chat": {
+    "title": "LIMITLESS AI",
+    "subtitle": "We reageren doorgaans direct",
+    "welcomeMessage": "Hallo! Welkom bij LIMITLESS AI. Hoe kan ik u helpen met het automatiseren van uw bedrijf vandaag?",
+    "followUp": "Vraag gerust naar onze diensten of plan een gratis consultatie!",
+    "placeholder": "Typ uw bericht...",
+    "poweredBy": "Powered by LIMITLESS AI"
+  },
+  "servicesPage": {
+    "badge": "Onze Diensten",
+    "title": "Intelligente Oplossingen voor",
+    "titleHighlight": "Modern Bedrijfsleven",
+    "subtitle": "Bij Limitless AI helpen we bedrijven sneller te groeien door handmatig werk om te zetten in volledig geautomatiseerde, intelligente systemen. Onze diensten zijn ontworpen om operaties te stroomlijnen, klantbetrokkenheid te verhogen en een slimmere, efficiëntere workflow te creëren in uw hele bedrijf.",
+    "keyFeatures": "Belangrijkste Functies",
+    "getStarted": "Aan de Slag",
+    "systemAutomation": {
+      "title": "Systeemautomatisering",
+      "tagline": "Uw bedrijf op de automatische piloot",
+      "description": "Transformeer de manier waarop uw bedrijf opereert met intelligente automatisering. We brengen uw processen in kaart, integreren uw tools en creëren naadloze AI-gestuurde workflows die handmatige taken elimineren, fouten verminderen en dagelijks uren besparen.",
+      "longDescription": "Van CRM-synchronisatie tot geautomatiseerde follow-ups en interne operaties, we bouwen systemen die uw bedrijf soepeler, sneller en efficiënter laten draaien op de automatische piloot.",
+      "features": [
+        "Workflow mapping en optimalisatie",
+        "CRM en tool integratie",
+        "Geautomatiseerde follow-up sequences",
+        "Foutreductie en kwaliteitscontrole",
+        "Real-time data synchronisatie",
+        "Aangepaste trigger-gebaseerde acties"
+      ]
+    },
+    "chatbot": {
+      "title": "Intelligente Chatbot",
+      "tagline": "24/7 gesprekken die converteren",
+      "description": "Breng uw klantervaring naar de toekomst met AI-gestuurde chatbots die 24/7 werken. Onze intelligente chatbots beantwoorden direct vragen, kwalificeren leads, boeken afspraken en bieden gepersonaliseerde ondersteuning zonder menselijke tussenkomst.",
+      "longDescription": "Ontworpen om naadloos te integreren met uw website en CRM, helpen ze u meer bezoekers te converteren, reactietijden te verkorten en klantenservice op schaal te automatiseren.",
+      "features": [
+        "24/7 directe klantreacties",
+        "Intelligente lead kwalificatie",
+        "Geautomatiseerd afspraken boeken",
+        "Gepersonaliseerde gespreksflows",
+        "CRM en agenda integratie",
+        "Meertalige ondersteuning"
+      ]
+    },
+    "website": {
+      "title": "Website Ontwerp",
+      "tagline": "Digitale aanwezigheid die domineert",
+      "description": "Creëer een krachtige online aanwezigheid met moderne, converterende websites ontworpen voor prestaties en groei. We bouwen schone, snelle, mobiel-responsieve sites die uw merk weerspiegelen en bezoekers omzetten in klanten.",
+      "longDescription": "Van slimme layouts tot naadloze gebruikerservaringen, elke pagina is met een doel gemaakt — om uw bedrijf te helpen opvallen, vertrouwen op te bouwen en resultaten te behalen.",
+      "features": [
+        "Modern, responsief ontwerp",
+        "Ingebouwde SEO-optimalisatie",
+        "Hoge snelheidsprestaties",
+        "Conversie-gerichte layouts",
+        "Merk-uitgelijnde esthetiek",
+        "Analytics integratie"
+      ]
+    },
+    "receptionist": {
+      "title": "AI Receptionist",
+      "tagline": "Mis nooit meer een kans",
+      "description": "Mis nooit meer een klant, oproep of kans. Onze AI Receptionist behandelt vragen, boekt afspraken, reageert direct op berichten en beheert follow-ups 24/7.",
+      "longDescription": "Het begroet uw klanten, beantwoordt veelgestelde vragen en stuurt mensen naar de juiste plek, terwijl het naadloos integreert met uw bestaande systemen. Snellere reacties, betere service en meer conversies — allemaal op de automatische piloot.",
+      "features": [
+        "24/7 oproep- en berichtafhandeling",
+        "Intelligente vraag routing",
+        "Geautomatiseerd afspraken plannen",
+        "Follow-up beheer",
+        "CRM en agenda sync",
+        "Aangepaste stem en persoonlijkheid"
+      ]
+    }
+  },
+  "caseStudiesPage": {
+    "badge": "Succesverhalen",
+    "title": "Klant",
+    "titleHighlight": "Projecten",
+    "subtitle": "Ontdek hoe LIMITLESS AI bedrijven heeft getransformeerd met onze innovatieve oplossingen. Elke casestudy toont onze expertise in AI-integratie en systeemautomatisering.",
+    "theChallenge": "De Uitdaging",
+    "ourSolution": "Onze Oplossing",
+    "resultsAchieved": "Behaalde Resultaten",
+    "items": {
+      "chatbot": {
+        "category": "Chatbot Ontwikkeling",
+        "title": "Revolutionaire Klantinteracties",
+        "client": "E-commerce Platform",
+        "challenge": "Een groeiend e-commercebedrijf had moeite met het afhandelen van toenemende klantvragen, wat leidde tot trage reactietijden en gemiste verkoopkansen.",
+        "solution": "We implementeerden een AI-gestuurde chatbot die productvragen, ordertracking, retouren en FAQ's 24/7 afhandelt. De chatbot integreert met hun voorraadsysteem voor real-time productbeschikbaarheid.",
+        "results": {
+          "responseTime": {
+            "label": "Reactietijd",
+            "value": "70%",
+            "description": "vermindering in gemiddelde reactietijd"
+          },
+          "satisfaction": {
+            "label": "Klanttevredenheid",
+            "value": "45%",
+            "description": "stijging in CSAT-scores"
+          },
+          "conversion": {
+            "label": "Verkoopconversie",
+            "value": "25%",
+            "description": "stijging in chat-naar-verkoop conversie"
+          }
+        }
+      },
+      "website": {
+        "category": "Website Creatie",
+        "title": "Digitale Aanwezigheid Heruitgevonden",
+        "client": "Professioneel Dienstverlenend Bedrijf",
+        "challenge": "Een gevestigd adviesbureau had een verouderde website die geen leads genereerde of hun expertise in de markt weerspiegelde.",
+        "solution": "We ontwierpen en bouwden een moderne, SEO-geoptimaliseerde website met focus op leadgeneratie. Functies omvatten casestudy showcases, servicepagina's en een geïntegreerd boekingssysteem.",
+        "results": {
+          "traffic": {
+            "label": "Organisch Verkeer",
+            "value": "3x",
+            "description": "stijging in maandelijkse bezoekers"
+          },
+          "leads": {
+            "label": "Leadgeneratie",
+            "value": "200%",
+            "description": "meer aanvragen per maand"
+          },
+          "pageLoad": {
+            "label": "Laadtijd",
+            "value": "<2s",
+            "description": "gemiddelde pagina laadtijd"
+          }
+        }
+      },
+      "automation": {
+        "category": "Automatiseringsdiensten",
+        "title": "Efficiëntie Opnieuw Gedefinieerd",
+        "client": "Marketingbureau",
+        "challenge": "Een marketingbureau besteedde te veel tijd aan handmatige gegevensinvoer, klantrapportage en projectmanagementtaken, wat hun groeicapaciteit beperkte.",
+        "solution": "We automatiseerden hun volledige workflow: van klant onboarding tot rapportage. Systemen updaten nu automatisch CRM-records, genereren rapporten en activeren meldingen bij belangrijke mijlpalen.",
+        "results": {
+          "timeSaved": {
+            "label": "Tijd Bespaard",
+            "value": "50%",
+            "description": "vermindering in admin taken"
+          },
+          "errorRate": {
+            "label": "Foutenpercentage",
+            "value": "90%",
+            "description": "minder gegevensinvoerfouten"
+          },
+          "capacity": {
+            "label": "Klantcapaciteit",
+            "value": "40%",
+            "description": "meer klanten behandeld"
+          }
+        }
+      },
+      "receptionist": {
+        "category": "AI Receptionist",
+        "title": "Mis Nooit Meer een Lead",
+        "client": "Gezondheidskliniek",
+        "challenge": "Een drukke medische kliniek miste oproepen tijdens piekuren en buiten kantooruren, wat resulteerde in gemiste afspraakboekingen en gefrustreerde patiënten.",
+        "solution": "We implementeerden een AI Receptionist die 24/7 oproepen afhandelt, afspraken direct in hun systeem boekt, veelgestelde vragen beantwoordt en urgente zaken op de juiste manier escaleert.",
+        "results": {
+          "callHandling": {
+            "label": "Oproepafhandeling",
+            "value": "100%",
+            "description": "van oproepen beantwoord"
+          },
+          "bookings": {
+            "label": "Boekingen",
+            "value": "35%",
+            "description": "stijging in afspraken"
+          },
+          "afterHours": {
+            "label": "Buiten Kantooruren",
+            "value": "24/7",
+            "description": "beschikbaarheid bereikt"
+          }
+        }
+      }
+    }
+  },
+  "common": {
+    "learnMore": "Meer Informatie",
+    "getStarted": "Aan de Slag",
+    "bookCall": "Boek een Gesprek",
+    "viewAll": "Bekijk Alles"
+  }
+}

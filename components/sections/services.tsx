@@ -1,55 +1,58 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import Link from 'next/link'
 import { Workflow, MessageSquareMore, Globe, Phone, ArrowRight } from 'lucide-react'
 import { HoverCard } from '@/components/shared/hover-card'
 import { ScrollReveal, StaggerContainer, StaggerItem } from '@/components/shared/scroll-reveal'
+import { useTranslations } from 'next-intl'
+import { Link } from '@/i18n/navigation'
 
-const services = [
-  {
-    icon: Workflow,
-    title: 'System Automations',
-    tagline: 'Your business on autopilot',
-    description:
-      'Transform the way your business operates with intelligent automation. We create seamless AI-powered workflows that eliminate manual tasks.',
-    features: ['CRM Syncing', 'Automated Follow-ups', 'Process Integration'],
-    gradient: 'from-purple-500 to-blue-500',
-    glowColor: 'rgba(139, 92, 246, 0.15)',
-  },
-  {
-    icon: MessageSquareMore,
-    title: 'Intelligent Chatbots',
-    tagline: '24/7 conversations that convert',
-    description:
-      'AI-powered chatbots that work around the clock. Instantly answer questions, qualify leads, and book appointments.',
-    features: ['Lead Qualification', 'Appointment Booking', '24/7 Support'],
-    gradient: 'from-cyan-500 to-purple-500',
-    glowColor: 'rgba(6, 182, 212, 0.15)',
-  },
-  {
-    icon: Globe,
-    title: 'Website Design',
-    tagline: 'Digital presence that dominates',
-    description:
-      'Modern, high-converting websites designed for performance. Clean, fast, mobile-responsive sites that turn visitors into customers.',
-    features: ['Mobile Responsive', 'SEO Optimized', 'High Converting'],
-    gradient: 'from-blue-500 to-cyan-500',
-    glowColor: 'rgba(59, 130, 246, 0.15)',
-  },
-  {
-    icon: Phone,
-    title: 'AI Receptionist',
-    tagline: 'Never miss another opportunity',
-    description:
-      'Our AI Receptionist handles enquiries, books appointments, responds instantly, and manages follow-ups 24/7.',
-    features: ['Call Handling', 'Instant Responses', 'Smart Routing'],
-    gradient: 'from-purple-500 to-cyan-500',
-    glowColor: 'rgba(139, 92, 246, 0.15)',
-  },
+const serviceIcons = [Workflow, MessageSquareMore, Globe, Phone]
+const serviceGradients = [
+  { gradient: 'from-purple-500 to-blue-500', glowColor: 'rgba(139, 92, 246, 0.15)' },
+  { gradient: 'from-cyan-500 to-purple-500', glowColor: 'rgba(6, 182, 212, 0.15)' },
+  { gradient: 'from-blue-500 to-cyan-500', glowColor: 'rgba(59, 130, 246, 0.15)' },
+  { gradient: 'from-purple-500 to-cyan-500', glowColor: 'rgba(139, 92, 246, 0.15)' },
 ]
 
 export function Services() {
+  const t = useTranslations('services')
+
+  const services = [
+    {
+      icon: serviceIcons[0],
+      title: t('systemAutomation.title'),
+      tagline: t('systemAutomation.tagline'),
+      description: t('systemAutomation.description'),
+      features: [t('systemAutomation.features.0'), t('systemAutomation.features.1'), t('systemAutomation.features.2')],
+      ...serviceGradients[0],
+    },
+    {
+      icon: serviceIcons[1],
+      title: t('chatbot.title'),
+      tagline: t('chatbot.tagline'),
+      description: t('chatbot.description'),
+      features: [t('chatbot.features.0'), t('chatbot.features.1'), t('chatbot.features.2')],
+      ...serviceGradients[1],
+    },
+    {
+      icon: serviceIcons[2],
+      title: t('website.title'),
+      tagline: t('website.tagline'),
+      description: t('website.description'),
+      features: [t('website.features.0'), t('website.features.1'), t('website.features.2')],
+      ...serviceGradients[2],
+    },
+    {
+      icon: serviceIcons[3],
+      title: t('receptionist.title'),
+      tagline: t('receptionist.tagline'),
+      description: t('receptionist.description'),
+      features: [t('receptionist.features.0'), t('receptionist.features.1'), t('receptionist.features.2')],
+      ...serviceGradients[3],
+    },
+  ]
+
   return (
     <section className="relative py-24 md:py-32 overflow-hidden">
       {/* Background */}
@@ -68,13 +71,13 @@ export function Services() {
         {/* Section Header */}
         <ScrollReveal className="text-center mb-16">
           <span className="inline-block px-4 py-1.5 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-400 text-sm font-medium mb-4">
-            Our Services
+            {t('badge')}
           </span>
           <h2
             className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4"
             style={{ fontFamily: 'var(--font-space-grotesk), system-ui, sans-serif' }}
           >
-            Intelligent Solutions for{' '}
+            {t('title')}{' '}
             <span
               style={{
                 background: 'linear-gradient(135deg, #a855f7, #06b6d4)',
@@ -82,11 +85,11 @@ export function Services() {
                 WebkitTextFillColor: 'transparent',
               }}
             >
-              Modern Business
+              {t('titleHighlight')}
             </span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-            We build the tools that help your business save time, reduce costs, and scale with confidence.
+            {t('subtitle')}
           </p>
         </ScrollReveal>
 
@@ -145,7 +148,7 @@ export function Services() {
                       className="inline-flex items-center text-white font-medium group"
                     >
                       <span className="relative">
-                        Learn More
+                        {t('learnMore')}
                         <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-500 to-cyan-500 group-hover:w-full transition-all duration-300" />
                       </span>
                       <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -167,7 +170,7 @@ export function Services() {
               boxShadow: '0 0 30px rgba(139, 92, 246, 0.3)',
             }}
           >
-            View All Services
+            {t('viewAll')}
             <ArrowRight className="ml-2 w-4 h-4" />
           </Link>
         </ScrollReveal>

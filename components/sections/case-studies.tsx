@@ -1,50 +1,57 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import Link from 'next/link'
 import { ArrowRight, MessageSquare, Globe, Workflow, Phone } from 'lucide-react'
 import { GlassCard } from '@/components/shared/glass-card'
+import { useTranslations } from 'next-intl'
+import { Link } from '@/i18n/navigation'
 
-const caseStudies = [
-  {
-    icon: MessageSquare,
-    category: 'Chatbot Development',
-    title: 'Revolutionizing Interactions',
-    description:
-      'Explore how our chatbot development services have revolutionized customer interactions, providing seamless experiences and efficient communication.',
-    result: '70% reduction in response time',
-    gradient: 'from-accent-purple to-accent-cyan',
-  },
-  {
-    icon: Globe,
-    category: 'Website Creation',
-    title: 'Digital Presence Reinvented',
-    description:
-      'Learn about our responsive website creation process that focuses on creating engaging, SEO-friendly websites optimized for success.',
-    result: '3x increase in conversions',
-    gradient: 'from-accent-cyan to-accent-blue',
-  },
-  {
-    icon: Workflow,
-    category: 'Automation Services',
-    title: 'Efficiency Redefined',
-    description:
-      'Experience the power of automation with our system integration services that streamline processes, reduce errors, and increase productivity.',
-    result: '50% time saved daily',
-    gradient: 'from-accent-blue to-accent-purple',
-  },
-  {
-    icon: Phone,
-    category: 'AI Receptionist',
-    title: 'Tailored to You',
-    description:
-      'AI Receptionist handles enquiries, books appointments, responds instantly, and manages follow-ups 24/7 while integrating with your existing systems.',
-    result: '100% lead capture rate',
-    gradient: 'from-accent-purple to-accent-blue',
-  },
+const caseStudyIcons = [MessageSquare, Globe, Workflow, Phone]
+const caseStudyGradients = [
+  'from-accent-purple to-accent-cyan',
+  'from-accent-cyan to-accent-blue',
+  'from-accent-blue to-accent-purple',
+  'from-accent-purple to-accent-blue',
 ]
 
 export function CaseStudies() {
+  const t = useTranslations('caseStudies')
+
+  const caseStudies = [
+    {
+      icon: caseStudyIcons[0],
+      category: t('items.chatbot.category'),
+      title: t('items.chatbot.title'),
+      description: t('items.chatbot.description'),
+      result: t('items.chatbot.result'),
+      gradient: caseStudyGradients[0],
+    },
+    {
+      icon: caseStudyIcons[1],
+      category: t('items.website.category'),
+      title: t('items.website.title'),
+      description: t('items.website.description'),
+      result: t('items.website.result'),
+      gradient: caseStudyGradients[1],
+    },
+    {
+      icon: caseStudyIcons[2],
+      category: t('items.automation.category'),
+      title: t('items.automation.title'),
+      description: t('items.automation.description'),
+      result: t('items.automation.result'),
+      gradient: caseStudyGradients[2],
+    },
+    {
+      icon: caseStudyIcons[3],
+      category: t('items.receptionist.category'),
+      title: t('items.receptionist.title'),
+      description: t('items.receptionist.description'),
+      result: t('items.receptionist.result'),
+      gradient: caseStudyGradients[3],
+    },
+  ]
+
   return (
     <section className="section relative overflow-hidden bg-background-secondary">
       {/* Background */}
@@ -60,13 +67,13 @@ export function CaseStudies() {
           className="text-center mb-16"
         >
           <span className="inline-block px-4 py-1.5 rounded-full bg-accent-purple/10 border border-accent-purple/20 text-accent-purple text-sm font-medium mb-4">
-            Success Stories
+            {t('badge')}
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-white mb-4">
-            Client <span className="gradient-text">Projects</span>
+            {t('title')} <span className="gradient-text">{t('titleHighlight')}</span>
           </h2>
           <p className="text-muted max-w-2xl mx-auto text-lg">
-            Discover how LIMITLESS AI has transformed businesses with our innovative solutions.
+            {t('subtitle')}
           </p>
         </motion.div>
 
@@ -118,7 +125,7 @@ export function CaseStudies() {
                       </span>
                     </div>
                     <div className="flex items-center text-white font-medium text-sm group-hover:text-accent-purple transition-colors">
-                      View Case Study
+                      {t('viewCaseStudy')}
                       <ArrowRight className="ml-1 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                     </div>
                   </div>
@@ -137,7 +144,7 @@ export function CaseStudies() {
           className="text-center mt-12"
         >
           <Link href="/case-studies" className="btn-secondary">
-            View All Projects
+            {t('viewAll')}
             <ArrowRight className="ml-2 w-4 h-4" />
           </Link>
         </motion.div>

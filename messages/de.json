@@ -1,0 +1,429 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "caseStudies": "Fallstudien",
+    "contact": "Kontakt",
+    "getStarted": "Loslegen"
+  },
+  "hero": {
+    "badge": "KI-gestützte Geschäftsautomatisierung",
+    "headline1": "Automatisieren. Integrieren.",
+    "headline2": "Erhöhen.",
+    "subheadline": "Intelligente KI-Lösungen, die die Zukunft des Geschäfts antreiben",
+    "description": "Transformieren Sie Ihre Abläufe mit intelligenter Automatisierung. Unsere KI verwaltet Leads, Anrufe, Buchungen und Workflows rund um die Uhr — damit Sie nie eine Gelegenheit verpassen.",
+    "descriptionHighlight": "Schneller skalieren. Intelligenter arbeiten. Größer gewinnen.",
+    "exploreServices": "Dienste erkunden",
+    "bookCall": "Anruf buchen",
+    "stats": {
+      "alwaysOn": "Immer Aktiv",
+      "timeSaved": "Zeit gespart",
+      "fasterResponse": "Schnellere Antwort",
+      "leadCapture": "Lead-Erfassung"
+    },
+    "scroll": "Scrollen"
+  },
+  "services": {
+    "badge": "Unsere Dienstleistungen",
+    "title": "Intelligente Lösungen für",
+    "titleHighlight": "Moderne Unternehmen",
+    "subtitle": "Wir entwickeln die Werkzeuge, die Ihrem Unternehmen helfen, Zeit zu sparen, Kosten zu senken und mit Vertrauen zu wachsen.",
+    "learnMore": "Mehr erfahren",
+    "viewAll": "Alle Dienste anzeigen",
+    "systemAutomation": {
+      "title": "Systemautomatisierung",
+      "tagline": "Ihr Unternehmen auf Autopilot",
+      "description": "Transformieren Sie die Arbeitsweise Ihres Unternehmens mit intelligenter Automatisierung. Wir erstellen nahtlose KI-gestützte Workflows, die manuelle Aufgaben eliminieren.",
+      "features": ["CRM-Synchronisation", "Automatisierte Follow-ups", "Prozessintegration"]
+    },
+    "chatbot": {
+      "title": "Intelligente Chatbots",
+      "tagline": "24/7 Gespräche, die konvertieren",
+      "description": "KI-gestützte Chatbots, die rund um die Uhr arbeiten. Beantworten sofort Fragen, qualifizieren Leads und buchen Termine.",
+      "features": ["Lead-Qualifizierung", "Terminbuchung", "24/7 Support"]
+    },
+    "website": {
+      "title": "Webdesign",
+      "tagline": "Digitale Präsenz, die dominiert",
+      "description": "Moderne, hochkonvertierende Websites für Performance. Saubere, schnelle, mobilfreundliche Seiten, die Besucher in Kunden verwandeln.",
+      "features": ["Mobilfreundlich", "SEO-optimiert", "Hohe Konversion"]
+    },
+    "receptionist": {
+      "title": "KI-Rezeptionist",
+      "tagline": "Verpassen Sie nie wieder eine Gelegenheit",
+      "description": "Unser KI-Rezeptionist bearbeitet Anfragen, bucht Termine, antwortet sofort und verwaltet Follow-ups rund um die Uhr.",
+      "features": ["Anrufbearbeitung", "Sofortige Antworten", "Intelligentes Routing"]
+    }
+  },
+  "process": {
+    "badge": "Unser Prozess",
+    "title": "Wie Wir Ihr",
+    "titleHighlight": "Unternehmen",
+    "titleEnd": "Transformieren",
+    "subtitle": "Eine bewährte Methodik zur Bereitstellung außergewöhnlicher KI-Automatisierungslösungen, die echte Ergebnisse liefern.",
+    "steps": {
+      "discovery": {
+        "title": "Entdeckung",
+        "description": "Wir beginnen damit, Ihre geschäftlichen Herausforderungen, Ziele und aktuellen Workflows zu verstehen, um die besten Automatisierungsmöglichkeiten zu identifizieren."
+      },
+      "strategy": {
+        "title": "Strategie",
+        "description": "Wir entwerfen eine maßgeschneiderte KI-Lösung für Ihre spezifischen Bedürfnisse mit den erforderlichen Tools, Integrationen und Workflows."
+      },
+      "implementation": {
+        "title": "Implementierung",
+        "description": "Unser Team baut und implementiert Ihre Automatisierungssysteme mit sorgfältigen Tests, um einen reibungslosen Betrieb zu gewährleisten."
+      },
+      "optimization": {
+        "title": "Optimierung",
+        "description": "Wir überwachen, verfeinern und optimieren Ihre Systeme kontinuierlich, um die besten Ergebnisse und ROI im Laufe der Zeit zu liefern."
+      }
+    }
+  },
+  "metrics": {
+    "badge": "In Zahlen",
+    "title": "Echte Ergebnisse für",
+    "titleHighlight": "Echte Unternehmen",
+    "subtitle": "Die Wirkung von LIMITLESS AI wird durch unsere Erfolgskennzahlen quantifiziert und zeigt die greifbaren Vorteile unserer KI-Lösungen.",
+    "items": {
+      "alwaysOn": {
+        "label": "Immer-aktive Automatisierung",
+        "description": "Ihre KI arbeitet rund um die Uhr"
+      },
+      "timeSaved": {
+        "label": "Zeit gespart",
+        "description": "Bei manuellen, repetitiven Aufgaben"
+      },
+      "fasterResponse": {
+        "label": "Schnellere Antwort",
+        "description": "Kundenanfragen-Auflösung"
+      },
+      "leadCapture": {
+        "label": "Lead-Erfassung",
+        "description": "Verpassen Sie nie eine Gelegenheit"
+      }
+    }
+  },
+  "caseStudies": {
+    "badge": "Erfolgsgeschichten",
+    "title": "Kunden",
+    "titleHighlight": "Projekte",
+    "subtitle": "Entdecken Sie, wie LIMITLESS AI Unternehmen mit unseren innovativen Lösungen transformiert hat.",
+    "viewCaseStudy": "Fallstudie ansehen",
+    "viewAll": "Alle Projekte anzeigen",
+    "items": {
+      "chatbot": {
+        "category": "Chatbot-Entwicklung",
+        "title": "Interaktionen revolutionieren",
+        "description": "Entdecken Sie, wie unsere Chatbot-Entwicklungsdienste Kundeninteraktionen revolutioniert haben und nahtlose Erlebnisse und effiziente Kommunikation bieten.",
+        "result": "70% Reduzierung der Antwortzeit"
+      },
+      "website": {
+        "category": "Website-Erstellung",
+        "title": "Digitale Präsenz neu erfunden",
+        "description": "Erfahren Sie mehr über unseren responsiven Website-Erstellungsprozess, der sich auf ansprechende, SEO-freundliche Websites konzentriert, die für Erfolg optimiert sind.",
+        "result": "3x mehr Konversionen"
+      },
+      "automation": {
+        "category": "Automatisierungsdienste",
+        "title": "Effizienz neu definiert",
+        "description": "Erleben Sie die Kraft der Automatisierung mit unseren Systemintegrationsdiensten, die Prozesse optimieren, Fehler reduzieren und die Produktivität steigern.",
+        "result": "50% Zeit täglich gespart"
+      },
+      "receptionist": {
+        "category": "KI-Rezeptionist",
+        "title": "Maßgeschneidert für Sie",
+        "description": "Der KI-Rezeptionist bearbeitet Anfragen, bucht Termine, antwortet sofort und verwaltet Follow-ups rund um die Uhr, während er sich in Ihre bestehenden Systeme integriert.",
+        "result": "100% Lead-Erfassungsrate"
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Kundenerfolgsgeschichten",
+    "title": "Vertraut von",
+    "titleHighlight": "Unternehmen Weltweit",
+    "subtitle": "Von London über Äthiopien bis Spanien — Unternehmen auf der ganzen Welt vertrauen LIMITLESS AI, um ihre Abläufe zu transformieren.",
+    "averageRating": "5.0 Durchschnittsbewertung",
+    "verifiedReviews": "100% Verifizierte Bewertungen",
+    "verifiedClient": "Verifizierter Kunde",
+    "items": {
+      "edutechLabs": {
+        "company": "EdutechLabs Global",
+        "location": "London, Vereinigtes Königreich",
+        "content": "Die Beratungsexpertise von LIMITLESS AI war außergewöhnlich. Sie haben nicht nur Lösungen implementiert—sie haben unseren gesamten Ansatz zur Bildungstechnologie transformiert. Ihre strategischen Einblicke halfen uns, Automatisierungsmöglichkeiten zu identifizieren, von denen wir nicht wussten, dass sie existieren. Innerhalb von drei Monaten skalierten wir unsere Operationen auf 12 Länder. Ein absoluter Game-Changer für globale EdTech."
+      },
+      "architectBureau": {
+        "company": "Architect Bureau",
+        "location": "Addis Abeba, Äthiopien",
+        "content": "LIMITLESS AI verstand die einzigartigen Herausforderungen, ein Architekturbüro in Ostafrika zu führen. Ihre intelligenten Systeme verwalten jetzt Kundenkommunikation, Projektplanung und Follow-ups nahtlos. Wir haben eine 200%ige Steigerung der Projektanfragen gesehen und verpassen nie eine Gelegenheit. Sie lieferten Weltklasse-Service, der mit allem konkurriert, was ich international gesehen habe."
+      },
+      "pristine": {
+        "company": "Pristine",
+        "location": "Marbella, Spanien",
+        "content": "Unsere administrative Arbeitsbelastung ertränkte unser Team, bis LIMITLESS AI eingriff. Sie automatisierten alles—Terminplanung, Mitarbeiterverwaltung, Kundenkommunikation, Rechnungsstellung—das Ganze. Unser Personal konzentriert sich jetzt auf außergewöhnlichen Service statt Papierkram. Es ist, als hätte man eine ganze Betriebsabteilung, die 24/7 arbeitet. Absolut revolutionär für unser Geschäft."
+      }
+    }
+  },
+  "cta": {
+    "badge": "Bereit zur Transformation?",
+    "title": "Bereit,",
+    "titleHighlight": "Grenzenloses Wachstum freizuschalten?",
+    "description": "Transformieren Sie Ihr Unternehmen mit modernsten KI-Lösungen. Kontaktieren Sie uns heute und beginnen wir eine Reise zu Innovation und Wachstum.",
+    "bookCall": "Buchen Sie Ihr kostenloses Strategiegespräch",
+    "exploreServices": "Dienste erkunden",
+    "trustedBy": "Vertraut von Unternehmen im gesamten Vereinigten Königreich"
+  },
+  "footer": {
+    "tagline": "Intelligente KI-Lösungen, die die Zukunft des Geschäfts antreiben. Transformieren Sie Ihre Abläufe mit intelligenter Automatisierung, die rund um die Uhr arbeitet.",
+    "navigation": "Navigation",
+    "legalTitle": "Rechtliches",
+    "nav": {
+      "home": "Startseite",
+      "services": "Dienste",
+      "caseStudies": "Fallstudien",
+      "contact": "Kontakt"
+    },
+    "legal": {
+      "privacy": "Datenschutzrichtlinie",
+      "terms": "Allgemeine Geschäftsbedingungen",
+      "accessibility": "Barrierefreiheit",
+      "refund": "Rückerstattungsrichtlinie"
+    },
+    "copyright": "Alle Rechte vorbehalten."
+  },
+  "contact": {
+    "badge": "Loslegen",
+    "title": "Starten Sie Ihre",
+    "titleHighlight": "Automatisierungsreise",
+    "subtitle": "Bereit, Ihr Unternehmen mit modernsten KI-Lösungen zu transformieren? Kontaktieren Sie uns heute und beginnen wir eine Reise zu Innovation.",
+    "sendMessage": "Senden Sie uns eine Nachricht",
+    "contactInfo": "Kontaktinformationen",
+    "email": "E-Mail",
+    "address": "Adresse",
+    "responseTime": "Antwortzeit",
+    "responseTimeValue": "Innerhalb von 24 Stunden",
+    "whyWorkWithUs": "Warum mit uns arbeiten?",
+    "benefits": {
+      "consultation": {
+        "title": "Kostenlose Beratung",
+        "description": "Buchen Sie ein unverbindliches Gespräch, um Ihre Automatisierungsbedürfnisse zu besprechen"
+      },
+      "turnaround": {
+        "title": "Schnelle Umsetzung",
+        "description": "Ihre maßgeschneiderte Lösung in Wochen, nicht Monaten"
+      },
+      "support": {
+        "title": "Laufender Support",
+        "description": "Kontinuierliche Optimierung und Support nach dem Launch"
+      }
+    },
+    "trustedBy": "Vertraut von britischen Unternehmen",
+    "trustedBySubtitle": "Schließen Sie sich Unternehmen an, die bereits Zeit mit KI sparen"
+  },
+  "contactForm": {
+    "success": {
+      "title": "Nachricht gesendet!",
+      "message": "Vielen Dank für Ihre Nachricht. Wir melden uns innerhalb von 24 Stunden."
+    },
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "message": "Nachricht",
+    "required": "*",
+    "placeholders": {
+      "firstName": "Max",
+      "lastName": "Mustermann",
+      "email": "max@unternehmen.de",
+      "phone": "+49 170 1234567",
+      "message": "Erzählen Sie uns von Ihrem Unternehmen und was Sie automatisieren möchten..."
+    },
+    "sending": "Wird gesendet...",
+    "send": "Nachricht senden"
+  },
+  "chat": {
+    "title": "LIMITLESS AI",
+    "subtitle": "Wir antworten normalerweise sofort",
+    "welcomeMessage": "Hallo! Willkommen bei LIMITLESS AI. Wie kann ich Ihnen heute bei der Automatisierung Ihres Unternehmens helfen?",
+    "followUp": "Fragen Sie gerne nach unseren Diensten oder vereinbaren Sie eine kostenlose Beratung!",
+    "placeholder": "Nachricht eingeben...",
+    "poweredBy": "Powered by LIMITLESS AI"
+  },
+  "servicesPage": {
+    "badge": "Unsere Dienstleistungen",
+    "title": "Intelligente Lösungen für",
+    "titleHighlight": "Moderne Unternehmen",
+    "subtitle": "Bei Limitless AI helfen wir Unternehmen, schneller zu wachsen, indem wir manuelle Arbeit in vollständig automatisierte, intelligente Systeme umwandeln. Unsere Dienste sind darauf ausgelegt, Abläufe zu optimieren, Kundenbindung zu steigern und intelligentere, effizientere Workflows in Ihrem gesamten Unternehmen zu schaffen.",
+    "keyFeatures": "Hauptfunktionen",
+    "getStarted": "Loslegen",
+    "systemAutomation": {
+      "title": "Systemautomatisierung",
+      "tagline": "Ihr Unternehmen auf Autopilot",
+      "description": "Transformieren Sie die Arbeitsweise Ihres Unternehmens mit intelligenter Automatisierung. Wir kartieren Ihre Prozesse, integrieren Ihre Tools und erstellen nahtlose KI-gestützte Workflows, die manuelle Aufgaben eliminieren, Fehler reduzieren und täglich Stunden sparen.",
+      "longDescription": "Von CRM-Synchronisation bis zu automatisierten Follow-ups und internen Abläufen bauen wir Systeme, die Ihr Unternehmen reibungsloser, schneller und effizienter auf Autopilot laufen lassen.",
+      "features": [
+        "Workflow-Mapping und Optimierung",
+        "CRM- und Tool-Integration",
+        "Automatisierte Follow-up-Sequenzen",
+        "Fehlerreduzierung und Qualitätskontrolle",
+        "Echtzeit-Datensynchronisation",
+        "Benutzerdefinierte Trigger-basierte Aktionen"
+      ]
+    },
+    "chatbot": {
+      "title": "Intelligenter Chatbot",
+      "tagline": "24/7 Gespräche, die konvertieren",
+      "description": "Bringen Sie Ihr Kundenerlebnis in die Zukunft mit KI-gestützten Chatbots, die rund um die Uhr arbeiten. Unsere intelligenten Chatbots beantworten sofort Fragen, qualifizieren Leads, buchen Termine und bieten personalisierten Support ohne menschliches Eingreifen.",
+      "longDescription": "Entwickelt für nahtlose Integration mit Ihrer Website und Ihrem CRM, helfen sie Ihnen, mehr Besucher zu konvertieren, Antwortzeiten zu reduzieren und Kundenservice in großem Maßstab zu automatisieren.",
+      "features": [
+        "24/7 sofortige Kundenantworten",
+        "Intelligente Lead-Qualifizierung",
+        "Automatisierte Terminbuchung",
+        "Personalisierte Gesprächsabläufe",
+        "CRM- und Kalenderintegration",
+        "Mehrsprachiger Support"
+      ]
+    },
+    "website": {
+      "title": "Webdesign",
+      "tagline": "Digitale Präsenz, die dominiert",
+      "description": "Schaffen Sie eine kraftvolle Online-Präsenz mit modernen, hochkonvertierenden Websites, die für Performance und Wachstum entwickelt wurden. Wir bauen saubere, schnelle, mobilfreundliche Seiten, die Ihre Marke widerspiegeln und Besucher in Kunden verwandeln.",
+      "longDescription": "Von intelligenten Layouts bis zu nahtlosen Benutzererlebnissen wird jede Seite mit Zweck gestaltet — um Ihrem Unternehmen zu helfen, sich abzuheben, Vertrauen aufzubauen und Ergebnisse zu erzielen.",
+      "features": [
+        "Modernes, responsives Design",
+        "Integrierte SEO-Optimierung",
+        "Hochgeschwindigkeits-Performance",
+        "Konversions-fokussierte Layouts",
+        "Markengerechte Ästhetik",
+        "Analytics-Integration"
+      ]
+    },
+    "receptionist": {
+      "title": "KI-Rezeptionist",
+      "tagline": "Verpassen Sie nie wieder eine Gelegenheit",
+      "description": "Verpassen Sie nie wieder einen Kunden, Anruf oder eine Gelegenheit. Unser KI-Rezeptionist bearbeitet Anfragen, bucht Termine, antwortet sofort auf Nachrichten und verwaltet Follow-ups rund um die Uhr.",
+      "longDescription": "Er begrüßt Ihre Kunden, beantwortet häufige Fragen und leitet Menschen an die richtige Stelle, während er sich nahtlos in Ihre bestehenden Systeme integriert. Schnellere Antworten, besserer Service und mehr Konversionen — alles auf Autopilot.",
+      "features": [
+        "24/7 Anruf- und Nachrichtenbearbeitung",
+        "Intelligentes Anfragen-Routing",
+        "Automatisierte Terminplanung",
+        "Follow-up-Management",
+        "CRM- und Kalender-Sync",
+        "Benutzerdefinierte Stimme und Persönlichkeit"
+      ]
+    }
+  },
+  "caseStudiesPage": {
+    "badge": "Erfolgsgeschichten",
+    "title": "Kunden",
+    "titleHighlight": "Projekte",
+    "subtitle": "Entdecken Sie, wie LIMITLESS AI Unternehmen mit unseren innovativen Lösungen transformiert hat. Jede Fallstudie zeigt unsere Expertise in KI-Integration und Systemautomatisierung.",
+    "theChallenge": "Die Herausforderung",
+    "ourSolution": "Unsere Lösung",
+    "resultsAchieved": "Erzielte Ergebnisse",
+    "items": {
+      "chatbot": {
+        "category": "Chatbot-Entwicklung",
+        "title": "Kundeninteraktionen revolutionieren",
+        "client": "E-Commerce-Plattform",
+        "challenge": "Ein wachsendes E-Commerce-Unternehmen hatte Schwierigkeiten, zunehmende Kundenanfragen zu bewältigen, was zu langsamen Antwortzeiten und verlorenen Verkaufschancen führte.",
+        "solution": "Wir implementierten einen KI-gestützten Chatbot, der Produktanfragen, Bestellverfolgung, Rücksendungen und FAQs rund um die Uhr bearbeitet. Der Chatbot integriert sich in ihr Inventarsystem für Echtzeit-Produktverfügbarkeit.",
+        "results": {
+          "responseTime": {
+            "label": "Antwortzeit",
+            "value": "70%",
+            "description": "Reduzierung der durchschnittlichen Antwortzeit"
+          },
+          "satisfaction": {
+            "label": "Kundenzufriedenheit",
+            "value": "45%",
+            "description": "Steigerung der CSAT-Werte"
+          },
+          "conversion": {
+            "label": "Verkaufskonversion",
+            "value": "25%",
+            "description": "Steigerung der Chat-zu-Verkauf-Konversion"
+          }
+        }
+      },
+      "website": {
+        "category": "Website-Erstellung",
+        "title": "Digitale Präsenz neu erfunden",
+        "client": "Professionelle Dienstleistungsfirma",
+        "challenge": "Eine etablierte Beratungsfirma hatte eine veraltete Website, die keine Leads generierte oder ihre Expertise am Markt widerspiegelte.",
+        "solution": "Wir entwarfen und bauten eine moderne, SEO-optimierte Website mit Fokus auf Lead-Generierung. Features umfassen Fallstudien-Showcases, Service-Seiten und integriertes Buchungssystem.",
+        "results": {
+          "traffic": {
+            "label": "Organischer Traffic",
+            "value": "3x",
+            "description": "Steigerung der monatlichen Besucher"
+          },
+          "leads": {
+            "label": "Lead-Generierung",
+            "value": "200%",
+            "description": "mehr Anfragen pro Monat"
+          },
+          "pageLoad": {
+            "label": "Seitenladezeit",
+            "value": "<2s",
+            "description": "durchschnittliche Ladezeit"
+          }
+        }
+      },
+      "automation": {
+        "category": "Automatisierungsdienste",
+        "title": "Effizienz neu definiert",
+        "client": "Marketing-Agentur",
+        "challenge": "Eine Marketing-Agentur verbrachte zu viel Zeit mit manueller Dateneingabe, Kundenberichten und Projektmanagement-Aufgaben, was ihre Wachstumskapazität einschränkte.",
+        "solution": "Wir automatisierten ihren gesamten Workflow: vom Kunden-Onboarding bis zur Berichterstattung. Systeme aktualisieren jetzt automatisch CRM-Einträge, generieren Berichte und lösen Benachrichtigungen bei wichtigen Meilensteinen aus.",
+        "results": {
+          "timeSaved": {
+            "label": "Zeit gespart",
+            "value": "50%",
+            "description": "Reduzierung der Admin-Aufgaben"
+          },
+          "errorRate": {
+            "label": "Fehlerrate",
+            "value": "90%",
+            "description": "weniger Dateneingabefehler"
+          },
+          "capacity": {
+            "label": "Kundenkapazität",
+            "value": "40%",
+            "description": "mehr Kunden betreut"
+          }
+        }
+      },
+      "receptionist": {
+        "category": "KI-Rezeptionist",
+        "title": "Nie wieder einen Lead verpassen",
+        "client": "Gesundheitsklinik",
+        "challenge": "Eine geschäftige Arztpraxis verpasste Anrufe während Stoßzeiten und außerhalb der Geschäftszeiten, was zu verlorenen Terminbuchungen und frustrierten Patienten führte.",
+        "solution": "Wir setzten einen KI-Rezeptionisten ein, der Anrufe rund um die Uhr bearbeitet, Termine direkt in ihr System bucht, häufige Fragen beantwortet und dringende Angelegenheiten angemessen eskaliert.",
+        "results": {
+          "callHandling": {
+            "label": "Anrufbearbeitung",
+            "value": "100%",
+            "description": "der Anrufe beantwortet"
+          },
+          "bookings": {
+            "label": "Buchungen",
+            "value": "35%",
+            "description": "Steigerung der Termine"
+          },
+          "afterHours": {
+            "label": "Außerhalb der Öffnungszeiten",
+            "value": "24/7",
+            "description": "Verfügbarkeit erreicht"
+          }
+        }
+      }
+    }
+  },
+  "common": {
+    "learnMore": "Mehr erfahren",
+    "getStarted": "Loslegen",
+    "bookCall": "Anruf buchen",
+    "viewAll": "Alle anzeigen"
+  }
+}

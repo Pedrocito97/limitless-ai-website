@@ -2,39 +2,20 @@
 
 import { motion } from 'framer-motion'
 import { Search, Lightbulb, Rocket, TrendingUp } from 'lucide-react'
+import { useTranslations } from 'next-intl'
 
-const steps = [
-  {
-    icon: Search,
-    number: '01',
-    title: 'Discovery',
-    description:
-      'We start by understanding your business challenges, goals, and current workflows to identify the best automation opportunities.',
-  },
-  {
-    icon: Lightbulb,
-    number: '02',
-    title: 'Strategy',
-    description:
-      'We design a custom AI solution tailored to your specific needs, outlining the tools, integrations, and workflows required.',
-  },
-  {
-    icon: Rocket,
-    number: '03',
-    title: 'Implementation',
-    description:
-      'Our team builds and deploys your automation systems with careful testing to ensure everything works seamlessly.',
-  },
-  {
-    icon: TrendingUp,
-    number: '04',
-    title: 'Optimization',
-    description:
-      'We continuously monitor, refine, and optimize your systems to deliver the best results and ROI over time.',
-  },
-]
+const stepIcons = [Search, Lightbulb, Rocket, TrendingUp]
 
 export function Process() {
+  const t = useTranslations('process')
+
+  const steps = [
+    { icon: stepIcons[0], title: t('steps.discovery.title'), description: t('steps.discovery.description') },
+    { icon: stepIcons[1], title: t('steps.strategy.title'), description: t('steps.strategy.description') },
+    { icon: stepIcons[2], title: t('steps.implementation.title'), description: t('steps.implementation.description') },
+    { icon: stepIcons[3], title: t('steps.optimization.title'), description: t('steps.optimization.description') },
+  ]
+
   return (
     <section className="section relative overflow-hidden bg-background-secondary">
       {/* Background Elements */}
@@ -55,13 +36,13 @@ export function Process() {
           className="text-center mb-16"
         >
           <span className="inline-block px-4 py-1.5 rounded-full bg-accent-cyan/10 border border-accent-cyan/20 text-accent-cyan text-sm font-medium mb-4">
-            Our Process
+            {t('badge')}
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-white mb-4">
-            How We <span className="gradient-text">Transform</span> Your Business
+            {t('title')} <span className="gradient-text">{t('titleHighlight')}</span> {t('titleEnd')}
           </h2>
           <p className="text-muted max-w-2xl mx-auto text-lg">
-            A proven methodology to deliver exceptional AI automation solutions that drive real results.
+            {t('subtitle')}
           </p>
         </motion.div>
 

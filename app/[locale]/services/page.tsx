@@ -2,90 +2,89 @@
 
 import { motion } from 'framer-motion'
 import { Workflow, MessageSquareMore, Globe, Phone, Check, ArrowRight } from 'lucide-react'
-import Link from 'next/link'
 import { GlassCard } from '@/components/shared/glass-card'
 import { CTA } from '@/components/sections/cta'
+import { useTranslations } from 'next-intl'
+import { Link } from '@/i18n/navigation'
 
-const services = [
-  {
-    icon: Workflow,
-    title: 'System Automation',
-    tagline: 'Your business on autopilot',
-    description:
-      'Transform the way your business operates with intelligent automation. We map out your processes, integrate your tools, and create seamless AI-powered workflows that eliminate manual tasks, reduce errors, and save hours every day.',
-    longDescription:
-      'From CRM syncing to automated follow-ups and internal operations, we build systems that help your business run smoother, faster, and more efficiently on autopilot.',
-    features: [
-      'Workflow mapping and optimization',
-      'CRM and tool integration',
-      'Automated follow-up sequences',
-      'Error reduction and quality control',
-      'Real-time data syncing',
-      'Custom trigger-based actions',
-    ],
-    gradient: 'from-accent-purple to-accent-blue',
-    glow: 'purple' as const,
-  },
-  {
-    icon: MessageSquareMore,
-    title: 'Intelligent Chatbot',
-    tagline: '24/7 conversations that convert',
-    description:
-      'Bring your customer experience into the future with AI-powered chatbots that work 24/7. Our intelligent chatbots instantly answer questions, qualify leads, book appointments, and provide personalised support without the need for human intervention.',
-    longDescription:
-      'Designed to integrate seamlessly with your website and CRM, they help you convert more visitors, reduce response times, and automate customer service at scale.',
-    features: [
-      '24/7 instant customer responses',
-      'Intelligent lead qualification',
-      'Automated appointment booking',
-      'Personalized conversation flows',
-      'CRM and calendar integration',
-      'Multi-language support',
-    ],
-    gradient: 'from-accent-cyan to-accent-purple',
-    glow: 'cyan' as const,
-  },
-  {
-    icon: Globe,
-    title: 'Website Design',
-    tagline: 'Digital presence that dominates',
-    description:
-      'Create a powerful online presence with modern, high-converting websites designed for performance and growth. We build clean, fast, mobile-responsive sites that reflect your brand and turn visitors into customers.',
-    longDescription:
-      'From smart layouts to seamless user experiences, every page is crafted with purpose — helping your business stand out, build trust, and drive results.',
-    features: [
-      'Modern, responsive design',
-      'SEO optimization built-in',
-      'High-speed performance',
-      'Conversion-focused layouts',
-      'Brand-aligned aesthetics',
-      'Analytics integration',
-    ],
-    gradient: 'from-accent-blue to-accent-cyan',
-    glow: 'blue' as const,
-  },
-  {
-    icon: Phone,
-    title: 'AI Receptionist',
-    tagline: 'Never miss another opportunity',
-    description:
-      'Never miss a customer, call, or opportunity again. Our AI Receptionist handles enquiries, books appointments, responds instantly to messages, and manages follow-ups 24/7.',
-    longDescription:
-      'It greets your customers, answers common questions, and directs people to the right place, all while integrating seamlessly with your existing systems. Faster responses, better service, and more conversions — all on autopilot.',
-    features: [
-      '24/7 call and message handling',
-      'Intelligent enquiry routing',
-      'Automated appointment scheduling',
-      'Follow-up management',
-      'CRM and calendar sync',
-      'Custom voice and personality',
-    ],
-    gradient: 'from-accent-purple to-accent-cyan',
-    glow: 'purple' as const,
-  },
+const serviceIcons = [Workflow, MessageSquareMore, Globe, Phone]
+const serviceStyles = [
+  { gradient: 'from-accent-purple to-accent-blue', glow: 'purple' as const },
+  { gradient: 'from-accent-cyan to-accent-purple', glow: 'cyan' as const },
+  { gradient: 'from-accent-blue to-accent-cyan', glow: 'blue' as const },
+  { gradient: 'from-accent-purple to-accent-cyan', glow: 'purple' as const },
 ]
 
 export default function ServicesPage() {
+  const t = useTranslations('servicesPage')
+
+  const services = [
+    {
+      icon: serviceIcons[0],
+      title: t('systemAutomation.title'),
+      tagline: t('systemAutomation.tagline'),
+      description: t('systemAutomation.description'),
+      longDescription: t('systemAutomation.longDescription'),
+      features: [
+        t('systemAutomation.features.0'),
+        t('systemAutomation.features.1'),
+        t('systemAutomation.features.2'),
+        t('systemAutomation.features.3'),
+        t('systemAutomation.features.4'),
+        t('systemAutomation.features.5'),
+      ],
+      ...serviceStyles[0],
+    },
+    {
+      icon: serviceIcons[1],
+      title: t('chatbot.title'),
+      tagline: t('chatbot.tagline'),
+      description: t('chatbot.description'),
+      longDescription: t('chatbot.longDescription'),
+      features: [
+        t('chatbot.features.0'),
+        t('chatbot.features.1'),
+        t('chatbot.features.2'),
+        t('chatbot.features.3'),
+        t('chatbot.features.4'),
+        t('chatbot.features.5'),
+      ],
+      ...serviceStyles[1],
+    },
+    {
+      icon: serviceIcons[2],
+      title: t('website.title'),
+      tagline: t('website.tagline'),
+      description: t('website.description'),
+      longDescription: t('website.longDescription'),
+      features: [
+        t('website.features.0'),
+        t('website.features.1'),
+        t('website.features.2'),
+        t('website.features.3'),
+        t('website.features.4'),
+        t('website.features.5'),
+      ],
+      ...serviceStyles[2],
+    },
+    {
+      icon: serviceIcons[3],
+      title: t('receptionist.title'),
+      tagline: t('receptionist.tagline'),
+      description: t('receptionist.description'),
+      longDescription: t('receptionist.longDescription'),
+      features: [
+        t('receptionist.features.0'),
+        t('receptionist.features.1'),
+        t('receptionist.features.2'),
+        t('receptionist.features.3'),
+        t('receptionist.features.4'),
+        t('receptionist.features.5'),
+      ],
+      ...serviceStyles[3],
+    },
+  ]
+
   return (
     <>
       {/* Hero Section */}
@@ -101,15 +100,15 @@ export default function ServicesPage() {
             className="text-center"
           >
             <span className="inline-block px-4 py-1.5 rounded-full bg-accent-purple/10 border border-accent-purple/20 text-accent-purple text-sm font-medium mb-6">
-              Our Services
+              {t('badge')}
             </span>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-heading font-bold text-white mb-6">
-              Intelligent Solutions for
+              {t('title')}
               <br />
-              <span className="gradient-text">Modern Business</span>
+              <span className="gradient-text">{t('titleHighlight')}</span>
             </h1>
             <p className="text-lg text-muted max-w-3xl mx-auto">
-              At Limitless AI, we help businesses grow faster by turning manual work into fully automated, intelligent systems. Our services are designed to streamline operations, boost customer engagement, and create a smarter, more efficient workflow across your entire business.
+              {t('subtitle')}
             </p>
           </motion.div>
         </div>
@@ -156,7 +155,7 @@ export default function ServicesPage() {
                       {service.longDescription}
                     </p>
                     <Link href="/contact" className="btn-primary inline-flex">
-                      Get Started
+                      {t('getStarted')}
                       <ArrowRight className="ml-2 w-4 h-4" />
                     </Link>
                   </div>
@@ -165,7 +164,7 @@ export default function ServicesPage() {
                   <div className={isEven ? 'lg:order-2' : 'lg:order-1'}>
                     <GlassCard glow={service.glow} className="p-8">
                       <h3 className="text-xl font-heading font-semibold text-white mb-6">
-                        Key Features
+                        {t('keyFeatures')}
                       </h3>
                       <ul className="space-y-4">
                         {service.features.map((feature, i) => (

@@ -4,8 +4,10 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Send, CheckCircle } from 'lucide-react'
 import { GlassCard } from './glass-card'
+import { useTranslations } from 'next-intl'
 
 export function ContactForm() {
+  const t = useTranslations('contactForm')
   const [isSubmitted, setIsSubmitted] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
 
@@ -32,10 +34,10 @@ export function ContactForm() {
           <CheckCircle className="w-8 h-8 text-white" />
         </motion.div>
         <h3 className="text-2xl font-heading font-bold text-white mb-2">
-          Message Sent!
+          {t('success.title')}
         </h3>
         <p className="text-muted">
-          Thanks for reaching out. We&apos;ll get back to you within 24 hours.
+          {t('success.message')}
         </p>
       </GlassCard>
     )
@@ -50,7 +52,7 @@ export function ContactForm() {
               htmlFor="firstName"
               className="block text-sm font-medium text-white mb-2"
             >
-              First Name <span className="text-accent-purple">*</span>
+              {t('firstName')} <span className="text-accent-purple">*</span>
             </label>
             <input
               type="text"
@@ -58,7 +60,7 @@ export function ContactForm() {
               name="firstName"
               required
               className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:border-accent-purple transition-colors"
-              placeholder="John"
+              placeholder={t('placeholders.firstName')}
             />
           </div>
           <div>
@@ -66,14 +68,14 @@ export function ContactForm() {
               htmlFor="lastName"
               className="block text-sm font-medium text-white mb-2"
             >
-              Last Name
+              {t('lastName')}
             </label>
             <input
               type="text"
               id="lastName"
               name="lastName"
               className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:border-accent-purple transition-colors"
-              placeholder="Doe"
+              placeholder={t('placeholders.lastName')}
             />
           </div>
         </div>
@@ -83,7 +85,7 @@ export function ContactForm() {
             htmlFor="email"
             className="block text-sm font-medium text-white mb-2"
           >
-            Email <span className="text-accent-purple">*</span>
+            {t('email')} <span className="text-accent-purple">*</span>
           </label>
           <input
             type="email"
@@ -91,7 +93,7 @@ export function ContactForm() {
             name="email"
             required
             className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:border-accent-purple transition-colors"
-            placeholder="john@company.com"
+            placeholder={t('placeholders.email')}
           />
         </div>
 
@@ -100,14 +102,14 @@ export function ContactForm() {
             htmlFor="phone"
             className="block text-sm font-medium text-white mb-2"
           >
-            Phone
+            {t('phone')}
           </label>
           <input
             type="tel"
             id="phone"
             name="phone"
             className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:border-accent-purple transition-colors"
-            placeholder="+44 123 456 7890"
+            placeholder={t('placeholders.phone')}
           />
         </div>
 
@@ -116,7 +118,7 @@ export function ContactForm() {
             htmlFor="message"
             className="block text-sm font-medium text-white mb-2"
           >
-            Message <span className="text-accent-purple">*</span>
+            {t('message')} <span className="text-accent-purple">*</span>
           </label>
           <textarea
             id="message"
@@ -124,7 +126,7 @@ export function ContactForm() {
             required
             rows={5}
             className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:border-accent-purple transition-colors resize-none"
-            placeholder="Tell us about your business and what you're looking to automate..."
+            placeholder={t('placeholders.message')}
           />
         </div>
 
@@ -157,11 +159,11 @@ export function ContactForm() {
                   d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
                 />
               </svg>
-              Sending...
+              {t('sending')}
             </span>
           ) : (
             <span className="flex items-center justify-center">
-              Send Message
+              {t('send')}
               <Send className="ml-2 w-4 h-4" />
             </span>
           )}

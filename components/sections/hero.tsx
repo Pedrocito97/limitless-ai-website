@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { ArrowRight, Play, Zap, Bot, Globe, Phone } from 'lucide-react'
+import { useTranslations } from 'next-intl'
 import { MagneticButton } from '@/components/shared/magnetic-button'
 
 const floatingIcons = [
@@ -11,14 +12,12 @@ const floatingIcons = [
   { icon: Phone, delay: 1.5, x: '12%', y: '70%' },
 ]
 
-// Smooth spring animation
 const smoothSpring = {
   type: 'spring',
   stiffness: 100,
   damping: 20,
 }
 
-// Text animation variants
 const textVariants = {
   hidden: { opacity: 0, y: 30, filter: 'blur(10px)' },
   visible: (delay: number) => ({
@@ -34,6 +33,15 @@ const textVariants = {
 }
 
 export function Hero() {
+  const t = useTranslations('hero')
+
+  const stats = [
+    { value: '24/7', label: t('stats.alwaysOn') },
+    { value: '50%+', label: t('stats.timeSaved') },
+    { value: '3x', label: t('stats.fasterResponse') },
+    { value: '100%', label: t('stats.leadCapture') },
+  ]
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
@@ -135,7 +143,7 @@ export function Hero() {
             animate={{ scale: [1, 1.2, 1], opacity: [1, 0.7, 1] }}
             transition={{ duration: 2, repeat: Infinity }}
           />
-          <span className="text-sm text-gray-400">AI-Powered Business Automation</span>
+          <span className="text-sm text-gray-400">{t('badge')}</span>
         </motion.div>
 
         {/* Main Headline */}
@@ -147,7 +155,7 @@ export function Hero() {
           className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 tracking-tight"
           style={{ fontFamily: 'var(--font-space-grotesk), system-ui, sans-serif' }}
         >
-          <span className="text-white">Automate. Integrate.</span>
+          <span className="text-white">{t('headline1')}</span>
           <br />
           <motion.span
             className="inline-block"
@@ -162,7 +170,7 @@ export function Hero() {
             }}
             transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut' }}
           >
-            Elevate.
+            {t('headline2')}
           </motion.span>
         </motion.h1>
 
@@ -174,7 +182,7 @@ export function Hero() {
           custom={0.2}
           className="text-lg sm:text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto mb-6"
         >
-          Smart AI Solutions That Power the Future of Business
+          {t('subheadline')}
         </motion.p>
 
         {/* Description */}
@@ -185,9 +193,8 @@ export function Hero() {
           custom={0.3}
           className="text-base sm:text-lg text-gray-500 max-w-2xl mx-auto mb-10"
         >
-          Transform your operations with intelligent automation. Our AI handles leads,
-          calls, bookings, and workflows 24/7 — so you never miss an opportunity.
-          <span className="text-white font-medium"> Scale faster. Work smarter. Win bigger.</span>
+          {t('description')}
+          <span className="text-white font-medium"> {t('descriptionHighlight')}</span>
         </motion.p>
 
         {/* CTAs with Magnetic Buttons */}
@@ -199,12 +206,12 @@ export function Hero() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16"
         >
           <MagneticButton href="/services" variant="primary">
-            Explore Services
+            {t('exploreServices')}
             <ArrowRight className="ml-2 w-4 h-4" />
           </MagneticButton>
           <MagneticButton href="/contact" variant="secondary">
             <Play className="mr-2 w-4 h-4" />
-            Book a Call
+            {t('bookCall')}
           </MagneticButton>
         </motion.div>
 
@@ -216,12 +223,7 @@ export function Hero() {
           custom={0.5}
           className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 max-w-4xl mx-auto"
         >
-          {[
-            { value: '24/7', label: 'Always-On' },
-            { value: '50%+', label: 'Time Saved' },
-            { value: '3x', label: 'Faster Response' },
-            { value: '100%', label: 'Lead Capture' },
-          ].map((stat, index) => (
+          {stats.map((stat, index) => (
             <motion.div
               key={index}
               whileHover={{ scale: 1.05, y: -5 }}
@@ -260,7 +262,7 @@ export function Hero() {
           transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
           className="flex flex-col items-center gap-2"
         >
-          <span className="text-xs text-gray-500 uppercase tracking-widest">Scroll</span>
+          <span className="text-xs text-gray-500 uppercase tracking-widest">{t('scroll')}</span>
           <div className="w-5 h-8 rounded-full border border-white/20 flex items-start justify-center p-1.5">
             <motion.div
               animate={{ y: [0, 8, 0], opacity: [1, 0.3, 1] }}
