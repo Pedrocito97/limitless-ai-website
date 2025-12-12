@@ -7,8 +7,6 @@ import { GlassCard } from '@/components/shared/glass-card'
 
 const testimonials = [
   {
-    name: 'Marcus Chen',
-    role: 'CEO & Founder',
     company: 'EdutechLabs Global',
     location: 'London, UK',
     content:
@@ -16,8 +14,6 @@ const testimonials = [
     rating: 5,
   },
   {
-    name: 'Yohannes Tadesse',
-    role: 'Principal Architect',
     company: 'Architect Bureau',
     location: 'Addis Ababa, Ethiopia',
     content:
@@ -25,8 +21,6 @@ const testimonials = [
     rating: 5,
   },
   {
-    name: 'Isabella Fernández',
-    role: 'Operations Director',
     company: 'Pristine',
     location: 'Marbella, Spain',
     content:
@@ -164,24 +158,21 @@ export function Testimonials() {
                     &ldquo;{testimonials[currentIndex].content}&rdquo;
                   </blockquote>
 
-                  {/* Author */}
+                  {/* Company */}
                   <div className="flex items-center space-x-4">
-                    <div className="w-16 h-16 rounded-full bg-gradient-to-br from-purple-500 to-cyan-500 p-[2px]">
-                      <div className="w-full h-full rounded-full bg-[#0f0f1a] flex items-center justify-center">
-                        <span className="text-white font-bold text-xl" style={{ fontFamily: 'var(--font-space-grotesk), system-ui, sans-serif' }}>
-                          {testimonials[currentIndex].name.split(' ').map(n => n[0]).join('')}
+                    <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-purple-500 to-cyan-500 p-[2px]">
+                      <div className="w-full h-full rounded-xl bg-[#0f0f1a] flex items-center justify-center">
+                        <span className="text-white font-bold text-lg" style={{ fontFamily: 'var(--font-space-grotesk), system-ui, sans-serif' }}>
+                          {testimonials[currentIndex].company.split(' ').map(n => n[0]).join('').slice(0, 2)}
                         </span>
                       </div>
                     </div>
                     <div>
                       <div className="text-white font-semibold text-lg" style={{ fontFamily: 'var(--font-space-grotesk), system-ui, sans-serif' }}>
-                        {testimonials[currentIndex].name}
+                        {testimonials[currentIndex].company}
                       </div>
-                      <div className="text-gray-400 text-sm">
-                        {testimonials[currentIndex].role}, <span className="text-purple-400">{testimonials[currentIndex].company}</span>
-                      </div>
-                      <div className="text-gray-500 text-xs mt-0.5 flex items-center">
-                        <svg className="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                      <div className="text-gray-500 text-sm flex items-center">
+                        <svg className="w-3.5 h-3.5 mr-1.5" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                         </svg>
                         {testimonials[currentIndex].location}
