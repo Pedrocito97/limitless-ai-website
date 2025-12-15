@@ -32,25 +32,25 @@
     "viewAll": "Voir Tous les Services",
     "systemAutomation": {
       "title": "Automatisation des Systèmes",
-      "tagline": "Votre entreprise en pilote automatique",
+      "tagline": "Votre Entreprise en Pilote Automatique",
       "description": "Transformez le fonctionnement de votre entreprise avec une automatisation intelligente. Nous créons des workflows IA fluides qui éliminent les tâches manuelles.",
       "features": ["Synchronisation CRM", "Suivis Automatisés", "Intégration de Processus"]
     },
     "chatbot": {
       "title": "Chatbots Intelligents",
-      "tagline": "Conversations 24/7 qui convertissent",
+      "tagline": "Conversations 24/7 Qui Convertissent",
       "description": "Des chatbots IA qui travaillent 24h/24. Répondent instantanément aux questions, qualifient les leads et prennent des rendez-vous.",
       "features": ["Qualification de Leads", "Prise de Rendez-vous", "Support 24/7"]
     },
     "website": {
       "title": "Conception Web",
-      "tagline": "Présence digitale qui domine",
+      "tagline": "Présence Digitale Qui Domine",
       "description": "Sites web modernes et convertissants conçus pour la performance. Sites propres, rapides et responsives qui transforment les visiteurs en clients.",
       "features": ["Responsive Mobile", "Optimisé SEO", "Haute Conversion"]
     },
     "receptionist": {
       "title": "Réceptionniste IA",
-      "tagline": "Ne manquez plus jamais une opportunité",
+      "tagline": "Ne Manquez Plus Jamais une Opportunité",
       "description": "Notre Réceptionniste IA gère les demandes, prend les rendez-vous, répond instantanément et gère les suivis 24/7.",
       "features": ["Gestion des Appels", "Réponses Instantanées", "Routage Intelligent"]
     }
@@ -258,7 +258,7 @@
     "getStarted": "Commencer",
     "systemAutomation": {
       "title": "Automatisation des Systèmes",
-      "tagline": "Votre entreprise en pilote automatique",
+      "tagline": "Votre Entreprise en Pilote Automatique",
       "description": "Transformez le fonctionnement de votre entreprise avec une automatisation intelligente. Nous cartographions vos processus, intégrons vos outils et créons des workflows IA fluides qui éliminent les tâches manuelles, réduisent les erreurs et économisent des heures chaque jour.",
       "longDescription": "De la synchronisation CRM aux suivis automatisés et opérations internes, nous construisons des systèmes qui font fonctionner votre entreprise plus facilement, plus rapidement et plus efficacement en pilote automatique.",
       "features": [
@@ -272,7 +272,7 @@
     },
     "chatbot": {
       "title": "Chatbot Intelligent",
-      "tagline": "Conversations 24/7 qui convertissent",
+      "tagline": "Conversations 24/7 Qui Convertissent",
       "description": "Projetez votre expérience client dans le futur avec des chatbots IA qui fonctionnent 24/7. Nos chatbots intelligents répondent instantanément aux questions, qualifient les leads, prennent des rendez-vous et fournissent un support personnalisé sans intervention humaine.",
       "longDescription": "Conçus pour s'intégrer parfaitement à votre site web et CRM, ils vous aident à convertir plus de visiteurs, réduire les temps de réponse et automatiser le service client à grande échelle.",
       "features": [
@@ -286,7 +286,7 @@
     },
     "website": {
       "title": "Conception Web",
-      "tagline": "Présence digitale qui domine",
+      "tagline": "Présence Digitale Qui Domine",
       "description": "Créez une présence en ligne puissante avec des sites web modernes et convertissants conçus pour la performance et la croissance. Nous construisons des sites propres, rapides et responsives qui reflètent votre marque et transforment les visiteurs en clients.",
       "longDescription": "Des mises en page intelligentes aux expériences utilisateur fluides, chaque page est conçue avec un objectif — aider votre entreprise à se démarquer, bâtir la confiance et générer des résultats.",
       "features": [
@@ -300,7 +300,7 @@
     },
     "receptionist": {
       "title": "Réceptionniste IA",
-      "tagline": "Ne manquez plus jamais une opportunité",
+      "tagline": "Ne Manquez Plus Jamais une Opportunité",
       "description": "Ne manquez plus jamais un client, un appel ou une opportunité. Notre Réceptionniste IA gère les demandes, prend les rendez-vous, répond instantanément aux messages et gère les suivis 24/7.",
       "longDescription": "Elle accueille vos clients, répond aux questions courantes et dirige les personnes au bon endroit, tout en s'intégrant parfaitement à vos systèmes existants. Des réponses plus rapides, un meilleur service et plus de conversions — le tout en pilote automatique.",
       "features": [

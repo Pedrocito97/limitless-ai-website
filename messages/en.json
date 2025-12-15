@@ -32,25 +32,25 @@
     "viewAll": "View All Services",
     "systemAutomation": {
       "title": "System Automations",
-      "tagline": "Your business on autopilot",
+      "tagline": "Your Business on Autopilot",
       "description": "Transform the way your business operates with intelligent automation. We create seamless AI-powered workflows that eliminate manual tasks.",
       "features": ["CRM Syncing", "Automated Follow-ups", "Process Integration"]
     },
     "chatbot": {
       "title": "Intelligent Chatbots",
-      "tagline": "24/7 conversations that convert",
+      "tagline": "24/7 Conversations That Convert",
       "description": "AI-powered chatbots that work around the clock. Instantly answer questions, qualify leads, and book appointments.",
       "features": ["Lead Qualification", "Appointment Booking", "24/7 Support"]
     },
     "website": {
       "title": "Website Design",
-      "tagline": "Digital presence that dominates",
+      "tagline": "Digital Presence That Dominates",
       "description": "Modern, high-converting websites designed for performance. Clean, fast, mobile-responsive sites that turn visitors into customers.",
       "features": ["Mobile Responsive", "SEO Optimized", "High Converting"]
     },
     "receptionist": {
       "title": "AI Receptionist",
-      "tagline": "Never miss another opportunity",
+      "tagline": "Never Miss Another Opportunity",
       "description": "Our AI Receptionist handles enquiries, books appointments, responds instantly, and manages follow-ups 24/7.",
       "features": ["Call Handling", "Instant Responses", "Smart Routing"]
     }
@@ -258,7 +258,7 @@
     "getStarted": "Get Started",
     "systemAutomation": {
       "title": "System Automation",
-      "tagline": "Your business on autopilot",
+      "tagline": "Your Business on Autopilot",
       "description": "Transform the way your business operates with intelligent automation. We map out your processes, integrate your tools, and create seamless AI-powered workflows that eliminate manual tasks, reduce errors, and save hours every day.",
       "longDescription": "From CRM syncing to automated follow-ups and internal operations, we build systems that help your business run smoother, faster, and more efficiently on autopilot.",
       "features": [
@@ -272,7 +272,7 @@
     },
     "chatbot": {
       "title": "Intelligent Chatbot",
-      "tagline": "24/7 conversations that convert",
+      "tagline": "24/7 Conversations That Convert",
       "description": "Bring your customer experience into the future with AI-powered chatbots that work 24/7. Our intelligent chatbots instantly answer questions, qualify leads, book appointments, and provide personalised support without the need for human intervention.",
       "longDescription": "Designed to integrate seamlessly with your website and CRM, they help you convert more visitors, reduce response times, and automate customer service at scale.",
       "features": [
@@ -286,7 +286,7 @@
     },
     "website": {
       "title": "Website Design",
-      "tagline": "Digital presence that dominates",
+      "tagline": "Digital Presence That Dominates",
       "description": "Create a powerful online presence with modern, high-converting websites designed for performance and growth. We build clean, fast, mobile-responsive sites that reflect your brand and turn visitors into customers.",
       "longDescription": "From smart layouts to seamless user experiences, every page is crafted with purpose — helping your business stand out, build trust, and drive results.",
       "features": [
@@ -300,7 +300,7 @@
     },
     "receptionist": {
       "title": "AI Receptionist",
-      "tagline": "Never miss another opportunity",
+      "tagline": "Never Miss Another Opportunity",
       "description": "Never miss a customer, call, or opportunity again. Our AI Receptionist handles enquiries, books appointments, responds instantly to messages, and manages follow-ups 24/7.",
       "longDescription": "It greets your customers, answers common questions, and directs people to the right place, all while integrating seamlessly with your existing systems. Faster responses, better service, and more conversions — all on autopilot.",
       "features": [

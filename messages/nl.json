@@ -32,25 +32,25 @@
     "viewAll": "Bekijk Alle Diensten",
     "systemAutomation": {
       "title": "Systeemautomatisering",
-      "tagline": "Uw bedrijf op de automatische piloot",
+      "tagline": "Uw Bedrijf op de Automatische Piloot",
       "description": "Transformeer de manier waarop uw bedrijf opereert met intelligente automatisering. Wij creëren naadloze AI-gestuurde workflows die handmatige taken elimineren.",
       "features": ["CRM Synchronisatie", "Geautomatiseerde Follow-ups", "Procesintegratie"]
     },
     "chatbot": {
       "title": "Intelligente Chatbots",
-      "tagline": "24/7 gesprekken die converteren",
+      "tagline": "24/7 Gesprekken die Converteren",
       "description": "AI-gestuurde chatbots die de klok rond werken. Beantwoord direct vragen, kwalificeer leads en boek afspraken.",
       "features": ["Lead Kwalificatie", "Afspraak Boeken", "24/7 Ondersteuning"]
     },
     "website": {
       "title": "Website Ontwerp",
-      "tagline": "Digitale aanwezigheid die domineert",
+      "tagline": "Digitale Aanwezigheid die Domineert",
       "description": "Moderne, converterende websites ontworpen voor prestaties. Schone, snelle, mobiel-responsieve sites die bezoekers omzetten in klanten.",
       "features": ["Mobiel Responsief", "SEO Geoptimaliseerd", "Hoog Converterend"]
     },
     "receptionist": {
       "title": "AI Receptionist",
-      "tagline": "Mis nooit meer een kans",
+      "tagline": "Mis Nooit Meer een Kans",
       "description": "Onze AI Receptionist behandelt vragen, boekt afspraken, reageert direct en beheert follow-ups 24/7.",
       "features": ["Oproepafhandeling", "Directe Reacties", "Slimme Routing"]
     }
@@ -258,7 +258,7 @@
     "getStarted": "Aan de Slag",
     "systemAutomation": {
       "title": "Systeemautomatisering",
-      "tagline": "Uw bedrijf op de automatische piloot",
+      "tagline": "Uw Bedrijf op de Automatische Piloot",
       "description": "Transformeer de manier waarop uw bedrijf opereert met intelligente automatisering. We brengen uw processen in kaart, integreren uw tools en creëren naadloze AI-gestuurde workflows die handmatige taken elimineren, fouten verminderen en dagelijks uren besparen.",
       "longDescription": "Van CRM-synchronisatie tot geautomatiseerde follow-ups en interne operaties, we bouwen systemen die uw bedrijf soepeler, sneller en efficiënter laten draaien op de automatische piloot.",
       "features": [
@@ -272,7 +272,7 @@
     },
     "chatbot": {
       "title": "Intelligente Chatbot",
-      "tagline": "24/7 gesprekken die converteren",
+      "tagline": "24/7 Gesprekken die Converteren",
       "description": "Breng uw klantervaring naar de toekomst met AI-gestuurde chatbots die 24/7 werken. Onze intelligente chatbots beantwoorden direct vragen, kwalificeren leads, boeken afspraken en bieden gepersonaliseerde ondersteuning zonder menselijke tussenkomst.",
       "longDescription": "Ontworpen om naadloos te integreren met uw website en CRM, helpen ze u meer bezoekers te converteren, reactietijden te verkorten en klantenservice op schaal te automatiseren.",
       "features": [
@@ -286,7 +286,7 @@
     },
     "website": {
       "title": "Website Ontwerp",
-      "tagline": "Digitale aanwezigheid die domineert",
+      "tagline": "Digitale Aanwezigheid die Domineert",
       "description": "Creëer een krachtige online aanwezigheid met moderne, converterende websites ontworpen voor prestaties en groei. We bouwen schone, snelle, mobiel-responsieve sites die uw merk weerspiegelen en bezoekers omzetten in klanten.",
       "longDescription": "Van slimme layouts tot naadloze gebruikerservaringen, elke pagina is met een doel gemaakt — om uw bedrijf te helpen opvallen, vertrouwen op te bouwen en resultaten te behalen.",
       "features": [
@@ -300,7 +300,7 @@
     },
     "receptionist": {
       "title": "AI Receptionist",
-      "tagline": "Mis nooit meer een kans",
+      "tagline": "Mis Nooit Meer een Kans",
       "description": "Mis nooit meer een klant, oproep of kans. Onze AI Receptionist behandelt vragen, boekt afspraken, reageert direct op berichten en beheert follow-ups 24/7.",
       "longDescription": "Het begroet uw klanten, beantwoordt veelgestelde vragen en stuurt mensen naar de juiste plek, terwijl het naadloos integreert met uw bestaande systemen. Snellere reacties, betere service en meer conversies — allemaal op de automatische piloot.",
       "features": [

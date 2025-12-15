@@ -38,19 +38,19 @@
     },
     "chatbot": {
       "title": "Intelligente Chatbots",
-      "tagline": "24/7 Gespräche, die konvertieren",
+      "tagline": "24/7 Gespräche, die Konvertieren",
       "description": "KI-gestützte Chatbots, die rund um die Uhr arbeiten. Beantworten sofort Fragen, qualifizieren Leads und buchen Termine.",
       "features": ["Lead-Qualifizierung", "Terminbuchung", "24/7 Support"]
     },
     "website": {
       "title": "Webdesign",
-      "tagline": "Digitale Präsenz, die dominiert",
+      "tagline": "Digitale Präsenz, die Dominiert",
       "description": "Moderne, hochkonvertierende Websites für Performance. Saubere, schnelle, mobilfreundliche Seiten, die Besucher in Kunden verwandeln.",
       "features": ["Mobilfreundlich", "SEO-optimiert", "Hohe Konversion"]
     },
     "receptionist": {
       "title": "KI-Rezeptionist",
-      "tagline": "Verpassen Sie nie wieder eine Gelegenheit",
+      "tagline": "Verpassen Sie Nie Wieder eine Gelegenheit",
       "description": "Unser KI-Rezeptionist bearbeitet Anfragen, bucht Termine, antwortet sofort und verwaltet Follow-ups rund um die Uhr.",
       "features": ["Anrufbearbeitung", "Sofortige Antworten", "Intelligentes Routing"]
     }
@@ -272,7 +272,7 @@
     },
     "chatbot": {
       "title": "Intelligenter Chatbot",
-      "tagline": "24/7 Gespräche, die konvertieren",
+      "tagline": "24/7 Gespräche, die Konvertieren",
       "description": "Bringen Sie Ihr Kundenerlebnis in die Zukunft mit KI-gestützten Chatbots, die rund um die Uhr arbeiten. Unsere intelligenten Chatbots beantworten sofort Fragen, qualifizieren Leads, buchen Termine und bieten personalisierten Support ohne menschliches Eingreifen.",
       "longDescription": "Entwickelt für nahtlose Integration mit Ihrer Website und Ihrem CRM, helfen sie Ihnen, mehr Besucher zu konvertieren, Antwortzeiten zu reduzieren und Kundenservice in großem Maßstab zu automatisieren.",
       "features": [
@@ -286,7 +286,7 @@
     },
     "website": {
       "title": "Webdesign",
-      "tagline": "Digitale Präsenz, die dominiert",
+      "tagline": "Digitale Präsenz, die Dominiert",
       "description": "Schaffen Sie eine kraftvolle Online-Präsenz mit modernen, hochkonvertierenden Websites, die für Performance und Wachstum entwickelt wurden. Wir bauen saubere, schnelle, mobilfreundliche Seiten, die Ihre Marke widerspiegeln und Besucher in Kunden verwandeln.",
       "longDescription": "Von intelligenten Layouts bis zu nahtlosen Benutzererlebnissen wird jede Seite mit Zweck gestaltet — um Ihrem Unternehmen zu helfen, sich abzuheben, Vertrauen aufzubauen und Ergebnisse zu erzielen.",
       "features": [
@@ -300,7 +300,7 @@
     },
     "receptionist": {
       "title": "KI-Rezeptionist",
-      "tagline": "Verpassen Sie nie wieder eine Gelegenheit",
+      "tagline": "Verpassen Sie Nie Wieder eine Gelegenheit",
       "description": "Verpassen Sie nie wieder einen Kunden, Anruf oder eine Gelegenheit. Unser KI-Rezeptionist bearbeitet Anfragen, bucht Termine, antwortet sofort auf Nachrichten und verwaltet Follow-ups rund um die Uhr.",
       "longDescription": "Er begrüßt Ihre Kunden, beantwortet häufige Fragen und leitet Menschen an die richtige Stelle, während er sich nahtlos in Ihre bestehenden Systeme integriert. Schnellere Antworten, besserer Service und mehr Konversionen — alles auf Autopilot.",
       "features": [

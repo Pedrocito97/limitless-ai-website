@@ -32,25 +32,25 @@
     "viewAll": "Ver Todos los Servicios",
     "systemAutomation": {
       "title": "Automatización de Sistemas",
-      "tagline": "Tu negocio en piloto automático",
+      "tagline": "Tu Negocio en Piloto Automático",
       "description": "Transforma la forma en que opera tu negocio con automatización inteligente. Creamos flujos de trabajo con IA que eliminan tareas manuales.",
       "features": ["Sincronización CRM", "Seguimientos Automatizados", "Integración de Procesos"]
     },
     "chatbot": {
       "title": "Chatbots Inteligentes",
-      "tagline": "Conversaciones 24/7 que convierten",
+      "tagline": "Conversaciones 24/7 Que Convierten",
       "description": "Chatbots con IA que trabajan las 24 horas. Responden preguntas al instante, califican leads y reservan citas.",
       "features": ["Calificación de Leads", "Reserva de Citas", "Soporte 24/7"]
     },
     "website": {
       "title": "Diseño Web",
-      "tagline": "Presencia digital que domina",
+      "tagline": "Presencia Digital Que Domina",
       "description": "Sitios web modernos y de alta conversión diseñados para el rendimiento. Sitios limpios, rápidos y responsivos que convierten visitantes en clientes.",
       "features": ["Responsive Móvil", "Optimizado para SEO", "Alta Conversión"]
     },
     "receptionist": {
       "title": "Recepcionista IA",
-      "tagline": "Nunca pierdas otra oportunidad",
+      "tagline": "Nunca Pierdas Otra Oportunidad",
       "description": "Nuestra Recepcionista IA gestiona consultas, reserva citas, responde al instante y gestiona seguimientos 24/7.",
       "features": ["Gestión de Llamadas", "Respuestas Instantáneas", "Enrutamiento Inteligente"]
     }
@@ -258,7 +258,7 @@
     "getStarted": "Comenzar",
     "systemAutomation": {
       "title": "Automatización de Sistemas",
-      "tagline": "Tu negocio en piloto automático",
+      "tagline": "Tu Negocio en Piloto Automático",
       "description": "Transforma la forma en que opera tu negocio con automatización inteligente. Mapeamos tus procesos, integramos tus herramientas y creamos flujos de trabajo con IA que eliminan tareas manuales, reducen errores y ahorran horas cada día.",
       "longDescription": "Desde sincronización de CRM hasta seguimientos automatizados y operaciones internas, construimos sistemas que hacen que tu negocio funcione de manera más suave, rápida y eficiente en piloto automático.",
       "features": [
@@ -272,7 +272,7 @@
     },
     "chatbot": {
       "title": "Chatbot Inteligente",
-      "tagline": "Conversaciones 24/7 que convierten",
+      "tagline": "Conversaciones 24/7 Que Convierten",
       "description": "Lleva tu experiencia de cliente al futuro con chatbots con IA que trabajan 24/7. Nuestros chatbots inteligentes responden preguntas al instante, califican leads, reservan citas y proporcionan soporte personalizado sin intervención humana.",
       "longDescription": "Diseñados para integrarse perfectamente con tu sitio web y CRM, te ayudan a convertir más visitantes, reducir tiempos de respuesta y automatizar el servicio al cliente a escala.",
       "features": [
@@ -286,7 +286,7 @@
     },
     "website": {
       "title": "Diseño Web",
-      "tagline": "Presencia digital que domina",
+      "tagline": "Presencia Digital Que Domina",
       "description": "Crea una poderosa presencia online con sitios web modernos y de alta conversión diseñados para el rendimiento y el crecimiento. Construimos sitios limpios, rápidos y responsivos que reflejan tu marca y convierten visitantes en clientes.",
       "longDescription": "Desde diseños inteligentes hasta experiencias de usuario fluidas, cada página está creada con propósito — ayudando a tu negocio a destacar, construir confianza y generar resultados.",
       "features": [
@@ -300,7 +300,7 @@
     },
     "receptionist": {
       "title": "Recepcionista IA",
-      "tagline": "Nunca pierdas otra oportunidad",
+      "tagline": "Nunca Pierdas Otra Oportunidad",
       "description": "Nunca pierdas un cliente, llamada u oportunidad. Nuestra Recepcionista IA gestiona consultas, reserva citas, responde mensajes al instante y gestiona seguimientos 24/7.",
       "longDescription": "Saluda a tus clientes, responde preguntas frecuentes y dirige a las personas al lugar correcto, todo mientras se integra perfectamente con tus sistemas existentes. Respuestas más rápidas, mejor servicio y más conversiones — todo en piloto automático.",
       "features": [
