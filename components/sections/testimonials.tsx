@@ -30,6 +30,12 @@ export function Testimonials() {
       content: t('items.pristine.content'),
       rating: 5,
     },
+    {
+      company: t('items.rttCommerce.company'),
+      location: t('items.rttCommerce.location'),
+      content: t('items.rttCommerce.content'),
+      rating: 5,
+    },
   ]
 
   const next = useCallback(() => {
